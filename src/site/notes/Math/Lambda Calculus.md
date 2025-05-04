@@ -34,25 +34,25 @@ def func(a):
 	return a
 ```
 
-to pass in an argument lets say b. we replace all values of a with b
+to pass in an argument lets say b. we apply function $(\lambda a.a)$ on $b$. Thus, passing $b$ as an input into the function, replacing all values of $a$ with $b$.
 $$
-(\lambda a. a) \ b  = b
+((\lambda a. a) \ b)  = b
 $$
 ```python
 func(b) # b
 ```
 
-to pass more than one argument, lets say. Lets assume we have defined +
+to pass more than one argument, lets say. Lets assume we have defined $+$
 ```python
 def func(a, b, c):
 	return a+b+c
 ```
 
-we have to define lambda for a, b and c
+we have to define lambda for $a$, $b$ and $c$
 $$
 (\lambda a. (\lambda b.(\lambda c.a+b+c) \ 3\ )\ 2\ ) \ 1
 $$
-Going from outer to inner brackets
+Going from outer to inner brackets. Replace all $a$ with $1$, $b$ with $2$ and $c$ with $3$.
 $$
 (\lambda a. (\lambda b.(\lambda c.a+b+c) \ 3\ )\ 2\ ) \ 1 \rightarrow \lambda b.(\lambda c. 1+b+c) \ 3 ) \ 2 \rightarrow (\lambda c. 1+2 + c) \ 3 \rightarrow 1+2+3 
 $$
