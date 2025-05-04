@@ -36,15 +36,15 @@ $$
 $$
 
 $$
-T_{r+1} = nCr  \cdot a^{n-r} \cdot b^{r}
+T_{r+1} = nCr  \cdot a^{r} \cdot b^{n-r}
 $$
 $$
-(a+bx)^n = a^n \sum_{r=0}^{\infty} 
+(ax + b)^n = b^n \sum_{r=0}^{\infty} 
 \begin{pmatrix} n \\ r \end{pmatrix} 
-\left(\frac{bx}{a}\right)^r
+\left(\frac{ax}{b}\right)^r
 $$
 $$
-|x| < \left|\frac{a}{b}\right|
+|x| < \left|\frac{b}{a}\right|
 $$
 
 ## Maclaurin Series
@@ -110,5 +110,5 @@ $$
 \cos x = \sum_{n=0}^{\infty}\frac{(-1)^n}{(2n)!}x^{2n}
 $$
 
-
+Refer to [[Math/Complex Numbers\|Complex Numbers]] to see the link between trigonometry and exponential functions.
 
