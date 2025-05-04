@@ -2,7 +2,9 @@
 {"dg-publish":true,"permalink":"/math/mathematics/","tags":["gardenEntry"]}
 ---
 
-> [! abstract]
+# Welcome!!
+
+> [! info]
 > Just something I did in my spare time, certain insights etc that might be helpful in the future :) 
 > ps. Ignore the links that are dull, those are unfinished projects
 
