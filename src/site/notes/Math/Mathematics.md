@@ -2,8 +2,10 @@
 {"dg-publish":true,"permalink":"/math/mathematics/","tags":["gardenEntry"]}
 ---
 
-Author : Joshua Leong
-If any mistakes are spotted, please don't hesitate to contact him
+> [! abstract]
+> Just something I did in my spare time, certain insights etc that might be helpful in the future :) 
+> ps. Ignore the links that are dull, those are unfinished projects
+
 - [[Math/Algebra\|Algebra]]
 - [[Math/Calculus\|Calculus]]
 - [[Math/Complex Numbers\|Complex Numbers]]
@@ -12,7 +14,6 @@ If any mistakes are spotted, please don't hesitate to contact him
 - [[Math/Imported notes. (Messy)\|Imported notes. (Messy)]]
 - [[Math/Lambda Calculus\|Lambda Calculus]]
 - [[Math/Linear Algebra\|Linear Algebra]]
-- [[Math/Mathematics\|Mathematics]]
 - [[Math/Notation\|Notation]]
 - [[Math/Probability\|Probability]]
 - [[Math/Sequences and Series\|Sequences and Series]]
@@ -20,3 +21,6 @@ If any mistakes are spotted, please don't hesitate to contact him
 - [[Math/Trigonometry\|Trigonometry]]
 
 { .block-language-dataview}
+
+Author : Joshua Leong
+If any mistakes are spotted, please don't hesitate to contact him
