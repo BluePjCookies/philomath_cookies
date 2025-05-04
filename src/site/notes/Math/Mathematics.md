@@ -18,6 +18,5 @@ If any mistakes are spotted, please don't hesitate to contact him
 - [[Math/Sequences and Series\|Sequences and Series]]
 - [[Math/Structures\|Structures]]
 - [[Math/Trigonometry\|Trigonometry]]
-- [[Welcome\|Welcome]]
 
 { .block-language-dataview}
