@@ -27,10 +27,8 @@ S_n = \frac{u_1 (1-r^n)}{1-r}
 $$
 
 $$
-S_{n} = \sum^{n}_{r=m}{a^r} = \frac{a^m(1-a^{n+1-m})}{1-a}
+S_{\infty} = \frac{u_1}{1-r}
 $$
-
-
 ## Binomial Expansion
 
 $$
