@@ -41,9 +41,9 @@ $$
 T_{r+1} = nCr  \cdot a^{n-r} \cdot b^{r}
 $$
 $$
-(a+bx)^n = a^n \sum_{r=0}^{\infty} \begin{pmatrix}n\\r \end{pmatrix} \left(\frac{bx}{a}\right)
-{ #r}
-
+(a+bx)^n = a^n \sum_{r=0}^{\infty} 
+\begin{pmatrix} n \\ r \end{pmatrix} 
+\left(\frac{bx}{a}\right)^r
 $$
 $$
 |x| < \left|\frac{a}{b}\right|
