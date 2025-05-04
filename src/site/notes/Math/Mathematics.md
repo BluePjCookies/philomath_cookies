@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/math/mathematics/","tags":["gardenEntry"]}
 ---
 
-
+Author : Joshua Leong
+If any mistakes are spotted, please don't hesitate to contact him
 - [[Math/Algebra\|Algebra]]
 - [[Math/Calculus\|Calculus]]
 - [[Math/Complex Numbers\|Complex Numbers]]
