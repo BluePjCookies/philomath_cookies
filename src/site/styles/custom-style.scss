@@ -1,13 +1,37 @@
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  background-color: #fdf6e3; /* Creamy paper-like background */
+  color: #333333; /* Soft dark gray for text */
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
+}
+
+a {
+  color: #586e75; /* Muted blue-gray for links */
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #657b83; /* Slightly darker on hover */
+}
+
+h1, h2, h3, h4 {
+  color: #2e2e2e; /* Subtle heading color */
+  font-family: 'Georgia', 'Times New Roman', serif;
+  margin-top: 1.4em;
+  margin-bottom: 0.5em;
+}
+
+code, pre {
+  background-color: #eee8d5; /* Light beige for code blocks */
+  color: #586e75;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
 }
