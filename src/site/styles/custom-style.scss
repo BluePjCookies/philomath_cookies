@@ -6,9 +6,36 @@ body {
     background-color: #fdf6e3;
     
     .content {
-       font-size: 14px;
+       font-size: 16px;
        color: #333333;
+       font-family: 'Georgia', 'Times New Roman', serif;
       }
+      code, pre {
+        background-color: #eee8d5; /* Light beige for code blocks */
+        color: #586e75;
+        padding: 2px 4px;
+        border-radius: 4px;
+        font-family: 'Courier New', monospace;
+    }
+    .callout {
+      background-color: #f4e1d2; /* A light peachy color for callouts */
+      border-left: 5px solid #2e2e2e; /* A darker border for contrast */
+      padding: 10px 20px;
+      margin: 20px 0;
+      font-style: italic;
+      color: #333333;
+      font-family: 'Georgia', 'Times New Roman', serif;
+    }
+  
+  /* Quote Style */
+    blockquote {
+        background-color: #f4e1d2; /* Light peachy background for quotes */
+        border-left: 5px solid #2e2e2e; /* Dark border for quotes */
+        padding: 10px 20px;
+        margin: 20px 0;
+        font-style: italic;
+        color: #333333;
+    }
     //  h1 {
     //   color: black;
     //  }
