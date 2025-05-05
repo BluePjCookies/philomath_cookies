@@ -1,7 +1,7 @@
 body {
-  background-color: #fdf6e3; /* Creamy paper-like background */
-  color: #333333; /* Soft dark gray for text */
-  font-family: 'Georgia', 'Times New Roman', serif;
+  background-color: #fdf6e3 !important; /* Creamy paper-like background */
+  color: #333333 !important; /* Soft dark gray for text */
+  font-family: 'Georgia', 'Times New Roman', serif !important;
   line-height: 1.6;
   padding: 20px;
   margin: 0;
@@ -17,8 +17,8 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-  color: #2e2e2e; /* Subtle heading color */
-  font-family: 'Georgia', 'Times New Roman', serif;
+  color: #2e2e2e !important;
+  font-family: 'Georgia', 'Times New Roman', serif !important;
   margin-top: 1.4em;
   margin-bottom: 0.5em;
 }
