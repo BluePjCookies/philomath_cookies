@@ -49,7 +49,7 @@ $
 \cos x = \sum_{n=0}^{\infty}\frac{(-1)^n}{(2n)!}x^{2n}
 $
 
-
+Refer to [[Math/Complex Numbers\|Complex Numbers]] to see the link between trigonometry and exponential functions.
 
 
 
