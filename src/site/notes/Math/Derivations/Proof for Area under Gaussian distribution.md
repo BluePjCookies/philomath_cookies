@@ -19,7 +19,7 @@ $$
 where $r^2 = x^2 + y^2$. Let $r$ be the radius of the circle. Thus all points a distance $r$ from the origin on $e^{-x^2 -y^2}$ would have the same value. We can graph out the function against $x$ and $y$
 ![Pasted image 20250506202742.png|600](/img/user/Images/Pasted%20image%2020250506202742.png)
 
-We can find the volume under $f(x,y)$ by finding the area under the red line (points of equidistant from the origin). Unroll the area under the red line to form a rectangle, with length $2\pi r$ and height $e^{-r^2}$, integrate by changing $r$.
+We can find the volume under $f(x,y)$ by summing the area under the red line (points of equidistant from the origin) for all values $r$. Unroll the area under the red line to form a rectangle, with length $2\pi r$ and height $e^{-r^2}$, integrate with respect to $r$.
 
 $$
 \begin{split}
