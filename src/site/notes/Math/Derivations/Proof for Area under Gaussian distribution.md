@@ -29,12 +29,13 @@ V &= \int_{0}^{\infty} 2 \pi r \ e^{-r^2} \ dr\\
 &= \pi
 \end{split}
 $$
-We also know that
-$$
+
+ We can express the volume as a double integral as below, where the inner integral integrates in the $x$ axis, keeping $y$ as a constant. I like to think of the integral as infinitely slicing $f(x,y)$ along the $x$ axis and finding the area bounded by $f(x,y)$ in each slice, expressing it as some value. Next the outer integral sums up all these areas by integrating in the $y$ direction, thus obtaining the volume $(V)$ under $f(x,y)$.
+ $$
 \begin{split}
 V &= \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} e^{-x^2-y^2} \ dx \ dy \\
 &= \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} e^{-x^2} e^{-y^2} \ dx \ dy \\
-&= \int_{-\infty}^{\infty} e^{-y^2} \int_{-\infty}^{\infty} e^{-x^2}  \ dx \ dy \\
+&= \int_{-\infty}^{\infty} e^{-y^2} \int_{-\infty}^{\infty} e^{-x^2}  \ dx \ dy  \quad \text{[We can factor $e^{-y^2}$ as it is a constant]}\\
 &= \int_{-\infty}^{\infty} e^{-y^2} C \ dy \\
 &= C \int_{-\infty}^{\infty} e^{-y^2} \ dy \\
 &= C^2
@@ -48,5 +49,12 @@ V = C^2 &= \pi\\
 &= \sqrt{\pi}
 \end{split}
 $$
+
+> [! info] Thus
+> $$
+> \int_{-\infty}^{\infty} e^{-x^2} \ dx = \sqrt{\pi} 
+> $$
+
+
 
 Source: https://www.youtube.com/watch?v=cy8r7WSuT1I
