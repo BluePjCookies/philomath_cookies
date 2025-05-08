@@ -148,3 +148,39 @@ $$
 
 From these gates, you can theoretically compute and create any function that a computer can do. 
 
+## Numbers 
+
+A number is defined as
+$$
+\begin{split}
+1 &= f x\\
+2 &= ffx\\
+3 &= fffx \\
+\vdots &= \vdots \\
+n &= \lambda f. \lambda x.(f^n x)
+\end{split}
+$$
+It takes in a function $f$ and a value $x$.
+
+Thus
+$$
+(n \ f \ x) = \overbrace{ff\dots}^{\text{n times}} x
+$$
+Let a successor be defined as
+
+$$
+\text{SUCC}(n) = n+1
+$$
+Thus
+$$
+\text{SUCC} = \lambda n. \lambda f.\lambda x.(f(n \ f \ x))
+$$
+Thus addition is defined as
+$$
++ = \lambda m. \lambda n. \lambda f. (m \text{ SUCC } n)
+$$
+And multiplication is defined as 
+$$
+\times = \lambda m. \lambda n. \lambda f. \lambda x. m(n \ f) \ x
+$$
+

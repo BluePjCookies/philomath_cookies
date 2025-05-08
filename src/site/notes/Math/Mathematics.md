@@ -9,18 +9,18 @@
 
 - [[Math/Algebra\|Algebra]]
 - [[Math/Complex Numbers\|Complex Numbers]]
-- [[Math/Imported notes. (Messy)\|Imported notes. (Messy)]]
-- [[Math/Geometry\|Geometry]]
-- [[Math/Linear Algebra\|Linear Algebra]]
-- [[Math/Lambda Calculus\|Lambda Calculus]]
+- [[Math/Distributions\|Distributions]]
 - [[Math/Group Theory\|Group Theory]]
+- [[Math/Geometry\|Geometry]]
+- [[Math/Lambda Calculus\|Lambda Calculus]]
 - [[Math/Calculus\|Calculus]]
 - [[Math/Notation\|Notation]]
-- [[Math/Structures\|Structures]]
-- [[Math/Probability\|Probability]]
+- [[Math/Linear Algebra\|Linear Algebra]]
+- [[Math/Imported notes. (Messy)\|Imported notes. (Messy)]]
 - [[Math/Sequences and Series\|Sequences and Series]]
+- [[Math/Probability\|Probability]]
 - [[Math/Trigonometry\|Trigonometry]]
-- [[Math/Distributions\|Distributions]]
+- [[Math/Structures\|Structures]]
 
 { .block-language-dataview}
 

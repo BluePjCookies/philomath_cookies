@@ -91,3 +91,30 @@ $$
 $$
 -2 \sin A \sin B = \cos (A+ B) - \cos (A-B)
 $$
+
+### Additional Insights (Very useful)
+
+Let us see the properties of these trigo identities.
+This section aims to help us find a shortcut to solving questions like: Use Compound angle formula to prove that $\cos \frac{19 \pi}{12} = \frac{\sqrt{6} - \sqrt{2}}{4}$ etc...
+
+let us define $n$ as
+$$
+n = k \times a + R
+$$
+where $R$ is the remainder. And $k,a, R, n \in \mathbb{Z}$. for eg.
+$$
+10 = 5 \times 2 + 1 
+$$
+Look at [[Math/Derivations/Proof for Symmetries in Trigo Identities\|Proof for Symmetries in Trigo Identities]]. We thus get.
+$$
+\begin{split}
+\sin \left( \frac{n}{a} \pi \right) &= (-1)^k \sin \left(\frac{R}{a} \pi \right) \\ 
+&= (-1)^k \sin \left(\frac{a-R}{a} \pi\right)
+\end{split}
+$$
+$$
+\begin{split}
+\cos \left( \frac{n}{a}\right) &= (-1)^k \cos \left( \frac{R}{a} \pi \right)\\
+&= (-1)^{k+1} \cos \left(\frac{a-R}{a} \pi\right)
+\end{split}
+$$

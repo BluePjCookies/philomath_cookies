@@ -50,6 +50,7 @@ $$
 | $\arctan x$ | $\frac{1}{1 + x^2}$                 |
 | $\sec x$    | $\sec x \tan x$                     |
 | $\csc x$    | $-\csc x \cot x$                    |
+| $\cot x$    | $-\csc^2 x$                         |
 
 ## Integration 
 
@@ -168,6 +169,7 @@ $
 $
 -2 \sin A \sin B = \cos (A+ B) - \cos (A-B)
 $
+
 
 </div></div>
 

@@ -18,7 +18,7 @@ $$
 > $$
 > \int e^{-x^2} \ dx
 > $$
-> But Mathematicians were able to figure out that  ([[Math/Derivations/Proof for Area under Gaussian distribution\|proof]])
+> But Mathematicians were able to figure out that  ([[Math/Derivations/Proof for Area under Gaussian distribution\|proof]]) Its a really beautiful proof (Go check it out)
 > $$
 \int_{-\infty}^{\infty} e^{-x^2} \ dx = \sqrt{\pi}
 $$
