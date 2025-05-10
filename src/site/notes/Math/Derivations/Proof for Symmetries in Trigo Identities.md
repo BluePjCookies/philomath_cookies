@@ -3,7 +3,7 @@
 ---
 
 
-Let us see the properties of these trigo identiti1es.
+Let us see the properties of these trigo identities.
 This section aims to help us find a shortcut to solving questions like: Use Compound angle formula to prove that $\cos \frac{19 \pi}{12} = \frac{\sqrt{6} - \sqrt{2}}{4}$ etc...
 
 let us define $n$ as

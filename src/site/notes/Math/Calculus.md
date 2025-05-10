@@ -58,7 +58,7 @@ Integration is just the opposite of differentiation
 ### Integration by Substitution
 
 1. Substitute a function as a variable.  
-2. Change the limits and dx to integrate with respect to that said variable
+2. Change the limits and dx. Integrate with respect to that said variable
 
 > [!Example]
 > This is a sample question from the Math worksheet
@@ -192,7 +192,12 @@ $$
 \int \frac{1}{2} (\sin 8x + \sin 2x) \  dx= - \frac{1}{16} \cos 8x - \frac{1}{4} \cos 2x + C
 $$
 
+### Volume of Revolution
 
+Suppose we have $f(x)$, rotating it around the $x-$axis would form a volume of 
+$$
+V = \pi \int_{a}^{b} f(x)^2 \ dx
+$$
 ## Ordinary Differential Equations (ODE)
 
 ### Solving a Variable Separable Differential equation
