@@ -366,3 +366,39 @@ Understand that essentially
 $$
 y_{n+1} = y_n + \Delta y
 $$
+
+
+
+## Limits 
+
+$\lim_{x\rightarrow 0} f(x)$ ask the question, what does the value $f(x)$ approach as $x$ approaches $0$?
+
+We are interested in finding the limits of a function in which just subbing in the values of 
+$x$ would yield an undefined solution like $\frac{0}{0}$ or $\frac{\infty}{\infty}$. Suppose $f(0) = g(0) = 0$.
+
+$$
+\lim_{x \rightarrow 0} \frac{f(x)}{g(x)} = ???
+$$
+### L' Hopital rule
+
+It basically says that if the solution is undefined, just differentiate $f(x)$ and $g(x)$ until it yields a valid solution.
+> [! example]
+> For example
+> $$
+> \lim_{x \rightarrow 0} \frac{\sin x}{x} = \frac{\cos x}{1} = 1
+> $$
+
+
+Look at [[Math/Sequences and Series#Maclaurin Series\|Maclaurin Series expansion]]
+
+The expansion of $\sin x$ yields
+$$
+\lim_{x \rightarrow 0} \frac{x + \frac{x^3}{3!} + \dots}{x} = \lim_{x \rightarrow 0} 1 + \frac{x^2}{3!} + \dots = 1
+$$
+We aim to separate a constant that is independent of $x$ from this fraction.
+
+Look that if we differentiate $\sin x$ and $x$ instead. We can also get a constant of $1$ out.
+$$
+\lim_{x \rightarrow 0} \frac{x + \frac{x^3}{3!} + \dots}{x} = \lim_{x \rightarrow 0} \frac{1 + \frac{x^2}{2!} + \dots}{1} = 1
+$$
+Differentiation is now a tool used to factor $x$ from $f(x)$ and $g(x)$. That's why the L'hopital rule works.
