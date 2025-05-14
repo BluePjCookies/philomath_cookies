@@ -101,10 +101,7 @@ let us define $n$ as
 $$
 n = k \times a + R
 $$
-where $R$ is the remainder. And $k,a, R, n \in \mathbb{Z}$. for eg.
-$$
-10 = 5 \times 2 + 1 
-$$
+where $R$ is the remainder. And $k,a, R, n \in \mathbb{Z}$.
 Look at [[Math/Derivations/Proof for Symmetries in Trigo Identities\|Proof for Symmetries in Trigo Identities]]. We thus get.
 $$
 \begin{split}
@@ -117,4 +114,36 @@ $$
 \cos \left( \frac{n}{a}\right) &= (-1)^k \cos \left( \frac{R}{a} \pi \right)\\
 &= (-1)^{k+1} \cos \left(\frac{a-R}{a} \pi\right)
 \end{split}
+$$
+### Joshua's approximation method. Estimating $cos$ $sin$ $tan$ without using their respective functions on a calculator 
+
+Suppose we want to find the value of 
+$$
+\cos \left( \frac{19}{5} \right)
+$$
+Using the approximation that $\pi \approx \frac{22}{7}$. And reducing it using the [[Math/Derivations/Proof for Symmetries in Trigo Identities\|Proof for Symmetries in Trigo Identities]] formulas
+$$
+\begin{split}
+\cos \left( \frac{23}{5}\right) &= \cos\left( \frac{19}{5} \frac{7}{22} \pi \right)\\
+&= \cos\left( \frac{133}{110} \pi \right)\\
+&= (-1)^1 \cos\left(\frac{23}{110} \pi \right)
+\end{split}
+$$
+Next, having reduced $\theta < \frac{\pi}{2}$. using the [[Math/Sequences and Series#Maclaurin Series expansion for $ sin$ and $ cos$\|Maclaurin Series expansion]] for $\cos$ up to the $x^4$ term. 
+$$
+\begin{split}
+-\cos \left( \frac{23}{110} \pi \right) &\approx - \left( 1 - \frac{\left(\frac{23}{110} \pi \right)^2}{2} + \frac{\left(\frac{23}{110} \pi \right)^4}{4!}\right)\\
+\end{split}
+$$
+We see that
+$$ 
+- \left( 1 - \frac{\left(\frac{23}{110} \pi \right)^2}{2} + \frac{\left(\frac{23}{110} \pi \right)^4}{4!}\right)\\ = -0.792012968067
+$$
+and using a calculator
+$$
+\cos \left(\frac{19}{5}\right) = -0.790967711914
+$$
+Comparing the two solution, my method is accurate up to 2dp with an error of $0.001$ :)
+$$
+\cos \left(\frac{19}{5}\right) - - \left( 1 - \frac{\left(\frac{23}{110} \pi \right)^2}{2} + \frac{\left(\frac{23}{110} \pi \right)^4}{4!}\right)= 0.001045256153
 $$
