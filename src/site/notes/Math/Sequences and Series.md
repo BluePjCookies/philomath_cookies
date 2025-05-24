@@ -112,3 +112,15 @@ $$
 
 Refer to [[Math/Complex Numbers\|Complex Numbers]] to see the link between trigonometry and exponential functions.
 
+## Fourier Series
+
+### Why does $\sin$ and $\cos$ form the orthonormal basis of functions?
+
+The inner product of $\sin$ and $\cos$ is 0. This means the two functions are orthogonal to one another in a vector space. Thus, they can be the basis vectors of any coordinate system. 
+$$
+\int_{0}^{2\pi}\sin x\cos x dx = 0 
+$$
+Thus any functions can be expressed as a sum of $\sin$ and $\cos$ waves.
+$$
+\langle \sin x, \cos x \rangle = 0
+$$
