@@ -7,21 +7,21 @@
 > [! info] What is this?
 > Just something I did in my spare time, certain insights etc that might be helpful in the future :)  ps. Ignore the links that are dull, those are unfinished projects
 
-- [[Math/Algebra\|Algebra]]
 - [[Math/Complex Numbers\|Complex Numbers]]
 - [[Math/Calculus\|Calculus]]
-- [[Math/Distributions\|Distributions]]
-- [[Math/Group Theory\|Group Theory]]
-- [[Math/Imported notes. (Messy)\|Imported notes. (Messy)]]
-- [[Math/Geometry\|Geometry]]
-- [[Math/Lambda Calculus\|Lambda Calculus]]
-- [[Math/Linear Algebra\|Linear Algebra]]
 - [[Math/Notation\|Notation]]
-- [[Math/Probability\|Probability]]
-- [[Math/Structures\|Structures]]
-- [[Math/Topology\|Topology]]
+- [[Math/Lambda Calculus\|Lambda Calculus]]
+- [[Math/Imported notes. (Messy)\|Imported notes. (Messy)]]
+- [[Math/Group Theory\|Group Theory]]
+- [[Math/Distributions\|Distributions]]
 - [[Math/Trigonometry\|Trigonometry]]
+- [[Math/Probability\|Probability]]
+- [[Math/Algebra\|Algebra]]
 - [[Math/Sequences and Series\|Sequences and Series]]
+- [[Math/Linear Algebra\|Linear Algebra]]
+- [[Math/Topology\|Topology]]
+- [[Math/Structures\|Structures]]
+- [[Math/Geometry\|Geometry]]
 
 { .block-language-dataview}
 
