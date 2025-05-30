@@ -150,18 +150,16 @@ Recall how a function in algebra **transforms** x to y?
 $$
 f(x) = y
 $$
-In linear algebra, instead of x and y's which are scalar values, linear algebra **transforms**  into another.
+In linear algebra, instead of x and y's which are scalar values, linear algebra **transforms** vectors into another vector.
 
 $$
 f  (\vec{x}) = \vec{y}
 $$
 However, to make the distinction clearer, mathematicians use A instead of f.
 $$
-A \vec{x} = \vec{y}
+A \vec{x} = \vec{b}
 $$
 ---
-
-
 We need special tools to work with vectors, and this is where matrices comes in. A matrix encodes a transformation on a vector, similar to how a function (f) encodes a transformation of x to y.
 
 eg. 
