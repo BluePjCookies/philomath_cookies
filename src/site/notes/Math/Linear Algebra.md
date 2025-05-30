@@ -2,22 +2,7 @@
 {"dg-publish":true,"permalink":"/math/linear-algebra/"}
 ---
 
-# Linear Algebra
-Recall how a function in algebra **transforms** x to y?
-$$
-f(x) = y
-$$
-In linear algebra, instead of x and y's which are scalar values, linear algebra **transforms**  into another.
-
-$$
-f  (\vec{x}) = \vec{y}
-$$
-However, to make the distinction clearer, mathematicians use A instead of f.
-$$
-A \vec{x} = \vec{y}
-$$
----
-
+# Linear Algebra (Elementary)
 ## Vectors
 
 Vectors are usually represented as column of numbers that encode a direction and magnitude.
@@ -38,52 +23,30 @@ $$
 |\vec{v}| = \sqrt{x_1^2 + x_2^2 + \dots + x_n^2} = \sqrt{\sum_{n=1}{x_n^2}}
 $$
 
-**Dot Product**
+### Dot Product
 
-The Dot product of two vectors are
+The Dot product of two vectors is
 $$
 A \cdot B = |A||B| \cos \theta
 $$
-Let AB, be a vector from A to B. Based on the cos rule. [[Math/Trigonometry#Cos rule\|Cos Rule]]
-$$
-\vec{AB} = \vec{OB} - \vec{OA}
-$$
-$$
-|AB|^2 = |OA|^2 + |OB|^2 - 2|OA||OB| \cos \theta
-$$
 
-Let $OA = A$ and $OB = B$.
-$$
-\begin{aligned}
-|A||B| \cos \theta &= \frac{1}{2}\left( |A|^2 + |B|^2 - |B-A|^2\right) \\
-&= \frac{1}{2} \left( \sum_{n=1} (a_n^2 + b_n^2) - \sum_{n=1} (b_n-a_n)^2\right) \\
-&=
-\frac{1}{2} \left( \sum_{n=1} (a_n^2 + b_n^2) - \sum_{n=1} (b_n^2-2a_nb_n + a_n^2)\right) \\
-&= 
-\sum_{n=1} a_nb_n
-\end{aligned}
-$$
-Thus
+And
 $$
 A \cdot B = \sum_{n=1} a_nb_n
 $$
-Lets take a closer look at the formula
 
-$$ 
-A \cdot B = |A||B| \cos \theta
-$$
-You can see that $|B| \cos \theta$ is a projection of B on A. Whereas $|A|\cos \theta$ is the projection of A on B.
+Look at derivation of the formula [[Math/Derivations/Proof for Dot Product\|here]]
 
 ---
 
-**Cross Product**
+### Cross Product
 The cross product of two vectors creates another vector that is *perpendicular* to both vectors.
 $$
 A \times B = |A||B| \sin \theta \ \hat{\mathbf{n}}
 $$
 Where $\hat{\mathbf{n}}$ is a unit vector perpendicular to A and B. The direction of $\hat{\mathbf{n}}$ can be determined using the right hand grip rule.
 
-![Pasted image 20250423155913.png|200](/img/user/Images/Pasted%20image%2020250423155913.png)
+![Pasted image 20250423155913.png|centre | 200](/img/user/Images/Pasted%20image%2020250423155913.png)
 
 
 Your fingers curl from vector a to b, while your thumb represents the direction of  $a \times b$
@@ -107,9 +70,9 @@ $$
 
 ---
 
-**Area**
+### Area bounded by Vectors
 
-![Pasted image 20250423155837.png|300](/img/user/Images/Pasted%20image%2020250423155837.png)
+![Pasted image 20250423155837.png|centre | 300](/img/user/Images/Pasted%20image%2020250423155837.png)
 
 The area of the parallelogram can be deduced. Let $u$ be the base and $h$ be the height. The Area would be $|u|h$.  $h$ can be expressed as.
 
@@ -127,22 +90,77 @@ $$
 \text{Volume of Cuboid} = |a \cdot (b\times c)|
 $$
 
-## Planes
+## Points, Lines, Planes
+### Point
+A point is self-evidently a point in 3d space.
 
-A plane is defined as
+### Lines
+
+Starting from what we know best
+$$
+y = mx + b
+$$
+A line in a vector space can be described as
+$$
+\hat{r} = \hat{a} + t \hat{b}
+$$
+
+### Planes
+
+Starting from what we know. The equation of a plane in Cartesian form is
+$$
+ax + by + cz = D
+$$
+Using the properties of dot product, it can be rewritten as
+$$
+\begin{pmatrix}
+x \\
+y \\ 
+z
+\end{pmatrix}
+\cdot
+\begin{pmatrix}
+a \\
+b \\ 
+c
+\end{pmatrix}
+= D$$
+or
 $$
 r \cdot \hat{n} = D
 $$
-where $\hat{n}$ is the normal vector of the plane
+where $\hat{n}$ is the normal vector of the plane. And $r$ is a vector that lies on the plane
+#### Intersection of Planes
 
-If
+Given three planes, if their normal vectors satisfy this criteria then the plane must intersect at a unique point.
 $$
 n_1 \cdot (n_2 \times n_3) \neq 0
 $$
-then the plane must intersect at a unique point
-![Pasted image 20250423155647.png|300](/img/user/Images/Pasted%20image%2020250423155647.png)
-However if $n_1 \cdot (n_2 \times n_3) = 0$, then you have to sub x as 0 to determine D, which determines whether it has infinite solutions or form a triangle (no solutions) 
+
+However, if this is satisfied
+$$
+n_1 \cdot (n_2 \times n_3) = 0
+$$
+![Pasted image 20250423155647.png|centre| 300](/img/user/Images/Pasted%20image%2020250423155647.png)
+You have to find $D$, often by subbing $x = 0$, which determines whether it has infinite solutions or form a triangle (no solutions) shown above
+
+
 ## Matrices
+Recall how a function in algebra **transforms** x to y?
+$$
+f(x) = y
+$$
+In linear algebra, instead of x and y's which are scalar values, linear algebra **transforms**  into another.
+
+$$
+f  (\vec{x}) = \vec{y}
+$$
+However, to make the distinction clearer, mathematicians use A instead of f.
+$$
+A \vec{x} = \vec{y}
+$$
+---
+
 
 We need special tools to work with vectors, and this is where matrices comes in. A matrix encodes a transformation on a vector, similar to how a function (f) encodes a transformation of x to y.
 
@@ -245,14 +263,46 @@ b
 \end{pmatrix}^{-1} \begin{pmatrix}20 \\ 23 \end{pmatrix}
 $$
 
-Where the inverse of the matrix is essentially the reverse of its transformation, similar to how $f:x \mapsto y$ , thus $f^{-1} :y \mapsto x$ . Note, the inverse does not exist if the transformation is not one to one. But for square matrices, there is always an inverse 99% of the time.
+Where the inverse of the matrix is essentially the reverse of its transformation, similar to how $f:x \mapsto y$ , thus $f^{-1} :y \mapsto x$ . Note, the inverse does not exist if the transformation is not one to one. But for square matrices, there is always an inverse 99% of the time.---
 
 ---
+# Linear Algebra (Modern)
+## Infinite Vectors and Functional Spaces
 
-Matrices belong in an non-abelian group
+> "The only thing limiting us in Math is our imagination" ~ Joshua
 
+Functions are vectors. What? Yes it's true. All functions are an infinite vector and these infinite vectors live within something called a Functional Space. 
+### Introduction to Infinite Vectors
 
-[[Math/Complex Numbers\|Complex Numbers]]
+Take a function $f(x)$. Suppose we get all values of $f(x)$ from $0 \leq x \leq n$ . And formulate them in a vector.
+$$
+f(x) = \begin{pmatrix}
+f(0) \\
+f(0.00\dots 1)\\
+\vdots \\
+f(n)
+\end{pmatrix}
+$$
+### Orthogonal Basis
+Suppose $f(x) = \sin x$. Since  $\sin$ is an oscillatory function, the domain of $x$ that we are interested in is thus $x \in \{\mathbb{R}| 0 \leq x \leq 2\pi \}$ 
 
----
+Recall that in Euclidean space, a linear combination of two orthogonal (perpendicular) vectors, $\hat{i}$ and $\hat{j}$  can describe any point on the plane? Similarly, to describe any point/functions within this Functional space, we want to find orthogonal vectors or functions.
 
+Thus we need to find two functions where its dot product is 0.
+$$
+\hat{f}(x) \cdot \hat{g}(x) = 0
+$$
+When dealing with finite vectors, the dot product is defined as [[Math/Linear Algebra#Dot Product\|such]], where each element in the vector is multiplied and summed together.
+
+$$
+\hat{A} \cdot \hat{B} = \sum_{n=1} a_nb_n
+$$
+Similarly, in the context of infinite vectors, it is defined as 
+$$
+\hat{f}(x) \cdot \hat{g}(x) = \int f(x)\ g(x) \ dx
+$$
+Fourier discovered that the two functions $f(x)$ and $g(x)$ are $\sin x$ and $\cos x$ respectively. As
+$$
+\int_0^{2\pi} \sin x \cos x \ dx  = 0
+$$
+Thus, $\sin$ and $\cos$ act as orthogonal basis vectors in Functional space. Proving that every single function can be expressed as a linear combination of $\sin$ and $\cos$ waves.
