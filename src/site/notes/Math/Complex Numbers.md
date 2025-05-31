@@ -41,7 +41,44 @@ Proof for $e^{i \theta} = \cos \theta + i \sin \theta$
 [[Math/Derivations/Proof for Euler's Identity using ODEs\|Proof for Euler's Identity using ODEs]]
 
 ---
-A complex number is defined as 
+## Introduction
+A complex number is defined as. 
 $$
 z = a + ib
 $$
+A vector has an angle $\theta$ and a magnitude $r$. It should be self-evident that we can rewrite this as
+$$
+z = re^{i \theta}
+$$
+
+The magnitude of a complex number can be expressed as $r = \sqrt{a^2 + b^2} = ||z||$
+### Conjugate 
+The conjugate of $z$ is 
+$$
+z^* = a - ib = r
+$$
+Thus
+$$
+||z|| = z \cdot z^*
+$$
+### Scaling & Rotations
+A complex number **encodes** a rotation and a scaling. When $a$ is multiplied with $b$ where $a,b \in \mathbb{C}$
+$$
+a \cdot b = r_1r_2 e^{i (\theta_1 + \theta_2)}
+$$
+
+$a$ acts on $b$ by scaling it by $r_1$ and rotating it by $\theta_1$
+
+The angle $\theta$ can be sufficiently described using this range.
+
+$$
+- \pi \leq \theta \leq \pi
+$$
+
+### De Moivre's Theorem
+
+Based on the above, it's pretty evident that 
+$$
+z^n = r^n e^{in \theta} = r^n \left( \cos n\theta + i \sin n \theta\right)
+$$
+
