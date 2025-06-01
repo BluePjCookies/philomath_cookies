@@ -105,7 +105,7 @@ $$
 2. Apply De Moivre's theorem
 
 $$
-z = (1 + i)^{\frac{1}{5}} = e^{i \left( \frac{\pi}{10} + \frac{2 k \pi}{5}\right)}
+z = (1 + i)^{\frac{1}{5}} = 2^{\frac{1}{10}}e^{i \left( \frac{\pi}{10} + \frac{2 k \pi}{5}\right)}
 $$
 3. Find the values of $k$
 Since $-\pi \leq \theta \leq \pi$. Thus $k \in \{ -2, -1, 0 , 1, 2\}$
