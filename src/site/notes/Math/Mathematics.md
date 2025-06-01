@@ -10,7 +10,6 @@
 - [[Math/Complex Numbers\|Complex Numbers]]
 - [[Math/Calculus\|Calculus]]
 - [[Math/Notation\|Notation]]
-- [[Math/Imported notes. (Messy)\|Imported notes. (Messy)]]
 - [[Math/Group Theory\|Group Theory]]
 - [[Math/Distributions\|Distributions]]
 - [[Math/Trigonometry\|Trigonometry]]
