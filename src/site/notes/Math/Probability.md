@@ -51,47 +51,78 @@ Since $P(B)$ can be rewritten as $P(B \cap A') + P(B \cap A)$. Rearranging our c
 $$
 P(A|B) = \frac{P(B|A)P(A)}{P(B|A')P(A') + P(B|A)P(A)}
 $$
-
-### Discrete Case
+## Expectation
 
 The expectation function, reveals the expected value of X in the long term. It is the product of x and the probability of x occurring.
-
+### Discrete:
 $$
 \mathbb{E}(X) = \sum_x{x P(X=x)}
 $$
-### Continuous Case
-
-**Probability Density Function (PDF)**
-For a continuous case, the probability that X would settle on a specific value x, is 0. $P(X=x) = 0$. Thus a probability density function is used. Which measures the probability that X would be close to x. 
+### Continuous:
 $$
 \mathbb{E}(X) = \int_{-\infty}^{\infty} x f_X(x) dx
 $$
-The probability density function can be used to measure the probability that X would fall within a specific interval. This is done by finding the area under the probability density function.
-$$
-P(a \leq X \leq b) = \int_a^b f_X(x) dx
-$$
-We can also rewrite it as such where $\delta$ is a small infinitesimal value. 
-$$
-P(x \leq X \leq x + \delta ) = \int_x^{x+\delta} f_X(x) dx \approx \delta f_X(x)
-$$
-And
-$$
-f_X(x) = \frac{P(x \leq X \leq x + \delta)}{\delta}
-$$
-Thus, $f_X(x)$ measures how probable X would be near x.
+where $f_X$ is the probability density function which measures the probability that $X$ would be close to $x$. More about them [[Math/Misc/Density Functions\|here]]
 
-**Cumulative Distribution Function**
+### Properties of Expectation
 
-**F(x)** measures how probable X would be less than or equal to a specific value. It is an S shape curve.
+#### Constant
 $$
-F(x) = P(X \leq x) = \int_{-\infty}^{x} f_X(x) dx
+\mathbb{E}(c) = c
+$$
+#### Scalar Multiplicativity
+$$
+\mathbb{E}(aX) = a \cdot \mathbb{E}(X)
+$$
+#### Linearity of Expectation
+$$
+\mathbb{E}(X + Y) = \mathbb{E}(X) + \mathbb{E}(Y)
+$$
+#### Product of Two independent Variables
+If $X$ and $Y$ are independent
+$$
+\mathbb{E}(X \cdot Y) = \mathbb{E}(X)
+\cdot \mathbb{E}(Y)$$
+## Variance
+
+### Formula
+Variance is the spread of the random variable $X$ from its mean $\mathbb{E}(X)$
+$$
+Var(X) = \mathbb{E}(X-\mathbb{E}(X) )^2
+$$
+We can also rewrite it as
+$$
+\begin{split}
+Var(X) &= \mathbb{E}(X- \mathbb{E}(X))^2 \\
+&= \mathbb{E}(X^2 - 2 \cdot \mathbb{E}(X) X + \mathbb{E}(X)^2) \\
+&= \mathbb{E}(X^2) - 2 \cdot \mathbb{E}(X)^2 + \mathbb{E}(X)^2 \\
+&= \mathbb{E}(X^2) - \mathbb{E}(X)
+\end{split}
+$$
+$\therefore$
+$$
+Var(X) = \mathbb{E}(X^2) - \mathbb{E}(X) = \sigma^2
+$$
+It can be equated to $\sigma^2$
+### Properties of Variance
+#### Constant
+$$
+Var(c) = 0
+$$
+#### Scalar Multiplicativity
+$$
+Var(cX ) = c^2 Var(X)
+$$
+#### Translation Invariance
+$$
+Var(X + c) = Var(X)
+$$
+#### Additivity
+$$
+Var(X + Y) = Var(X) + 2 Cov(X \cdot Y) + Var(Y)
 $$
 
-**Joint Probability Density**
-
-For two or more variables, their joint probability density can be given as such.
-
+If $X$ and $Y$ are independent, its covariance is 0. $\therefore$
 $$
-P(a \leq X \leq b, c \leq Y \leq d) = \int_a^b \int_c^d xy f_{XY}(x,y) dy dx
+Var(X + Y) = Var(X) + Var(Y)
 $$
-

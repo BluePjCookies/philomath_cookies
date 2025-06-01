@@ -21,6 +21,7 @@
 - [[Math/Structures\|Structures]]
 - [[Math/Geometry\|Geometry]]
 - [[Math/Lambda Calculus (Logic)\|Lambda Calculus (Logic)]]
+- [[Math/Misc/Density Functions\|Density Functions]]
 
 { .block-language-dataview}
 
