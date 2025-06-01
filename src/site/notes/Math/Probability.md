@@ -11,20 +11,6 @@ $$
 P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
 $$
 
-However, this definition does not account for outcomes with unequal probability distributions or an infinite number of outcomes.
-## Modern Axiomatic Definition
-
-It is based on the Kolmogorov probability axioms. Which extends the definition to unequal probability distributions, and also probability with infinite outcomes.
-## Kolmogorov Probability Axioms
-let $(\Omega, F,P)$ be the measure space where 
-$\Omega$ is the sample space (Set of all elements)
-$F$ is the event space (Set of all events) $F = \{E_1, E_2 \dots \}$ 
-$P$ is the probability measure that outputs a probability of an event $E$ 
-
-1. $P(E) \in \mathbb{R}, P(E) \geq 0 \quad \forall E \in F$  
-2. $P(\Omega) = 1$ 
-3. $P\left(\bigcup_{i=0}^{\infty} E_i \right) = \sum_{i=0}^{\infty}P(E_i)$  if $E_i$ are disjoint 
-
 ### Independence Relation
 
 if Event A and B are independent, then
@@ -126,3 +112,17 @@ If $X$ and $Y$ are independent, its covariance is 0. $\therefore$
 $$
 Var(X + Y) = Var(X) + Var(Y)
 $$
+
+
+## Modern Axiomatic Definition
+
+It is based on the Kolmogorov probability axioms. Which extends the definition to unequal probability distributions, and also probability with infinite outcomes.
+## Kolmogorov Probability Axioms
+let $(\Omega, F,P)$ be the measure space where 
+$\Omega$ is the sample space (Set of all elements)
+$F$ is the event space (Set of all events) $F = \{E_1, E_2 \dots \}$ 
+$P$ is the probability measure that outputs a probability of an event $E$ 
+
+1. $P(E) \in \mathbb{R}, P(E) \geq 0 \quad \forall E \in F$  
+2. $P(\Omega) = 1$ 
+3. $P\left(\bigcup_{i=0}^{\infty} E_i \right) = \sum_{i=0}^{\infty}P(E_i)$  if $E_i$ are disjoint 
