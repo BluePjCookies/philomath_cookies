@@ -3,30 +3,42 @@
 ---
 
 
-There are many types of Logic. For the sake of simplicity, we will just explain each notation that is most commonly used by mathematicians.
-
 ## Sets
-$\mathbb{R}$ - Real numbers 
-$\mathbb{Z}$ - Integers
-$x \mapsto y$ - elements from set x, maps to y
-
+| Sets         | Meaning          |
+| ------------ | ---------------- |
+| $\mathbb{N}$ | Natural numbers  |
+| $\mathbb{Z}$ | Integers         |
+| $\mathbb{Q}$ | Rational numbers |
+| $\mathbb{R}$ | Real numbers     |
+| $\mathbb{C}$ | Complex numbers  |
+| $\mathbb{H}$ | Quaternions      |
+| $\mathbb{P}$ | Prime numbers    |
+| $\emptyset$  | Empty Set        |
+|              |                  |
 ## Notation
-$a \in G$  -  a in G
-$\forall a$  - for all values of a
-$\exists a$ - there exists a
-$\sum_{i=a}^{b} i$ - summation of i from a to b
-$\bigcup_{i=a}^{b} S_i$ - The union of all the sets $S_a$ to $S_b$ 
-$\lim_{x\rightarrow a} f(x)$ - The value $f(x)$ approaches as $x$ approaches $a$
-$\sup_{x \in [a,b]} f(x)$ - The smallest upper bound of $f(x)$ over values of $x$ spanning from $a$ to $b$
-$\max_{x \in [a,b]}f(x)$ - the maximum of $f(x)$ over values of $x$ spanning from $a$ to $b$. 
-{ #310e11}
+
+| Notation                      | Meaning                                               |
+| ----------------------------- | ----------------------------------------------------- |
+| $a \in G$                     | a in G                                                |
+| $\forall a$                   | for all values of a                                   |
+| $\exists\ a$                  | there exists a                                        |
+| $\sum_{i=a}^{b} i$            | summation of i from a to b                            |
+| $\bigcup_{i=a}^{b} S_i$       | the union of all the sets $S_a$ to $S_b$              |
+| $\lim_{x \rightarrow a} f(x)$ | the value $f(x)$ approaches as $x$ approaches $a$     |
+| $\sup_{x \in [a,b]} f(x)$     | the smallest upper bound of $f(x)$ over $x \in [a,b]$ |
+| $\max_{x \in [a,b]} f(x)$     | the maximum of $f(x)$ over $x \in [a,b]$              |
+| $\therefore$                  | Therefore                                             |
+| $\because$                    | Because                                               |
+| $x \mapsto y$                 | Elements from $x$ maps to $y$                         |
 
 
 ## Logical Operators
-$\neg a$  - NOT a
-$a \wedge b$  - a AND b 
-$a \vee b$ - a OR b
-$a \rightarrow b$ - a implies b
+| Logic Operators      | Meaning     |
+|---------------------|-------------|
+| $\neg a$            | NOT a       |
+| $a \wedge b$        | a AND b     |
+| $a \vee b$          | a OR b      |
+| $a \rightarrow b$   | a implies b |
 
 
 

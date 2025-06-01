@@ -10,7 +10,6 @@
 - [[Math/Complex Numbers\|Complex Numbers]]
 - [[Math/Calculus\|Calculus]]
 - [[Math/Notation\|Notation]]
-- [[Math/Lambda Calculus\|Lambda Calculus]]
 - [[Math/Imported notes. (Messy)\|Imported notes. (Messy)]]
 - [[Math/Group Theory\|Group Theory]]
 - [[Math/Distributions\|Distributions]]
@@ -22,6 +21,7 @@
 - [[Math/Topology\|Topology]]
 - [[Math/Structures\|Structures]]
 - [[Math/Geometry\|Geometry]]
+- [[Math/Lambda Calculus (Logic)\|Lambda Calculus (Logic)]]
 
 { .block-language-dataview}
 
