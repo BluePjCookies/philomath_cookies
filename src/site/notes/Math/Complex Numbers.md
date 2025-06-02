@@ -135,7 +135,8 @@ $$
 (\cos \theta + i \sin \theta)^3 = \cos 3 \theta + i \sin 3 \theta
 $$
 3. Equate
-$\therefore$ Equating the real part
+Equating the real part
+
 $$
 \begin{split}
 \cos 3 \theta &= \cos^3 \theta - 3 \cos \theta \sin^2 \theta\\
@@ -146,6 +147,7 @@ $$
 \end{split}
 $$
 Equating the imaginary part
+
 $$
 \begin{split}
 \sin 3 \theta &= 3 \cos^2 \theta \sin \theta - \sin^3 \theta\\
@@ -155,7 +157,6 @@ $$
 &= -4 \sin^3 \theta + 3 \sin \theta
 \end{split}
 $$
-
 
 ## Relationship with Matrices
 An anti-clockwise rotation of a vector by $\theta$ can be described as 
