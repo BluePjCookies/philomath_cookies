@@ -120,7 +120,8 @@ The inner product of $\sin$ and $\cos$ is 0. This means the two functions are or
 $$
 \int_{0}^{2\pi}\sin x\cos x dx = 0 
 $$
-Thus any functions can be expressed as a sum of $\sin$ and $\cos$ waves.
+Thus any functions can be expressed as a sum of $\sin$ and $\cos$ waves. 
 $$
 \langle \sin x, \cos x \rangle = 0
 $$
+Full explanation [[Math/Linear Algebra#Orthogonal Basis\|here]]

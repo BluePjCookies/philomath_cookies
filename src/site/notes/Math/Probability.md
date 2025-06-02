@@ -19,7 +19,7 @@ P(A \cap B) = P(A) P(B)
 $$
 ### **Conditional Probability**
 
-Probability that A happens given B, is the probability that both A and B happens over the probability that B happens. So if we know B has happened, what is the probability that A will occur? (Try to visualise using Venn diagrams)
+Probability that A happens given B, is the probability that both A and B happens over the probability that B happens. (Try to visualise using Venn diagrams)
 
 $$
 P(A|B) = \frac{P(A \cap B)}{P(B)}
@@ -37,6 +37,23 @@ Since $P(B)$ can be rewritten as $P(B \cap A') + P(B \cap A)$. Rearranging our c
 $$
 P(A|B) = \frac{P(B|A)P(A)}{P(B|A')P(A') + P(B|A)P(A)}
 $$
+# Random Variables
+## Probability Mass Function (PMF)
+It denotes the probability that a **discrete** random variable $X$ would equate to the value $x$. 
+
+$$
+P(X= x)
+$$
+## Probability Density Function (PDF)
+For continuous random variable, $P(X = x)$ is not meaningful as it would just be 0. For example, suppose a computer can randomly generate real numbers. It is impossible that it will output $x$  due to the uncountably infinite many other possibilities. However, its output can come ridiculously close to $x$. And the probability that it is close to $x$ is defined by the probability density at $x$.
+$$
+f_X(x)
+$$where $f_X$ is the probability density function which measures the probability that $X$ would be close to $x$. More about them [[Math/Misc/Density Functions\|here]]
+
+To find the probability that $a \leq X \leq b$
+$$
+P(a \leq X \leq b) = \int_a^b f_X(x) dx
+$$
 ## Expectation
 
 The expectation function, reveals the expected value of X in the long term. It is the product of x and the probability of x occurring.
@@ -48,7 +65,7 @@ $$
 $$
 \mathbb{E}(X) = \int_{-\infty}^{\infty} x f_X(x) dx
 $$
-where $f_X$ is the probability density function which measures the probability that $X$ would be close to $x$. More about them [[Math/Misc/Density Functions\|here]]
+
 
 ### Properties of Expectation
 
@@ -113,6 +130,17 @@ $$
 Var(X + Y) = Var(X) + Var(Y)
 $$
 
+## Cumulative distribution Function
+
+Is the summation of the Probability Mass and Density function. It is an S-shaped curve 
+### Discrete
+$$
+F(x) = P( X \leq x) = \sum_{t \leq x} P(X = t)
+$$
+### Continuous 
+$$
+F(x) = P(X \leq x) = \int_{-\infty}^x f_X(t) \ dt 
+$$
 
 ## Modern Axiomatic Definition
 

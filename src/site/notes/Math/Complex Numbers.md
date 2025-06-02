@@ -111,6 +111,51 @@ $$
 Since $-\pi \leq \theta \leq \pi$. Thus $k \in \{ -2, -1, 0 , 1, 2\}$
 $\therefore QED$
 
+## Expressing $\cos n \theta$, $\sin n \theta$ in terms of $\cos^k \theta$ and $\sin^k \theta$.
+Expanding the expression using De Moivre theorem and algebra will yield different results. This allows you to equate and express $\cos n \theta$ and $\sin n \theta$ in unique ways
+$$
+(\cos \theta + i\sin \theta)^n
+$$
+1. Expand it algebraically
+2. Expand it using De Moivre theorem
+3. Equate the reals and imaginaries 
+
+>[! Example]
+> Expand $(\cos \theta + i \sin \theta)^3$. Express $\cos 3 \theta$ and $\sin 3 \theta$ in terms of $\cos^k\theta$ and $\sin^k \theta$.
+
+ 1. Algebraically
+$$
+\begin{split}
+(\cos \theta + i \sin \theta)^3 &=  \cos^3θ+3\cos^2 \theta (i\sin\theta)+3\cos \theta(i \sin \theta)^2 +(i \sin \theta)^3\\
+&= (\cos^3 \theta - 3 \cos \theta \sin^2 \theta) + i (3 \cos^2 \theta \sin \theta - \sin^3 \theta)
+\end{split}
+$$
+2. De Moivre theorem
+$$
+(\cos \theta + i \sin \theta)^3 = \cos 3 \theta + i \sin 3 \theta
+$$
+3. Equate
+$\therefore$ Equating the real part
+$$
+\begin{split}
+\cos 3 \theta &= \cos^3 \theta - 3 \cos \theta \sin^2 \theta\\
+&= \cos^3 \theta - 3 \cos \theta \ (1 - \cos
+{ #2}
+ \theta) \\
+&= 4 \cos^3 \theta - 3 \cos \theta
+\end{split}
+$$
+Equating the imaginary part
+$$
+\begin{split}
+\sin 3 \theta &= 3 \cos^2 \theta \sin \theta - \sin^3 \theta\\
+&= 3 (1 - \sin^2 \theta ) \sin \theta - \sin
+{ #3}
+ \theta \\
+&= -4 \sin^3 \theta + 3 \sin \theta
+\end{split}
+$$
+
 
 ## Relationship with Matrices
 An anti-clockwise rotation of a vector by $\theta$ can be described as 

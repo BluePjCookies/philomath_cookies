@@ -7,20 +7,20 @@
 > [! info] What is this?
 > Just something I did in my spare time, certain insights etc that might be helpful in the future :)  ps. Ignore the links that are dull, those are unfinished projects
 
+- [[Math/Algebra\|Algebra]]
 - [[Math/Complex Numbers\|Complex Numbers]]
 - [[Math/Calculus\|Calculus]]
-- [[Math/Notation\|Notation]]
-- [[Math/Group Theory\|Group Theory]]
 - [[Math/Distributions\|Distributions]]
-- [[Math/Trigonometry\|Trigonometry]]
-- [[Math/Probability\|Probability]]
-- [[Math/Algebra\|Algebra]]
-- [[Math/Sequences and Series\|Sequences and Series]]
+- [[Math/Lambda Calculus (Logic)\|Lambda Calculus (Logic)]]
 - [[Math/Linear Algebra\|Linear Algebra]]
+- [[Math/Notation\|Notation]]
+- [[Math/Probability\|Probability]]
+- [[Math/Sequences and Series\|Sequences and Series]]
+- [[Math/Geometry\|Geometry]]
+- [[Math/Group Theory\|Group Theory]]
 - [[Math/Topology\|Topology]]
 - [[Math/Structures\|Structures]]
-- [[Math/Geometry\|Geometry]]
-- [[Math/Lambda Calculus (Logic)\|Lambda Calculus (Logic)]]
+- [[Math/Trigonometry\|Trigonometry]]
 
 { .block-language-dataview}
 Author : Joshua Leong

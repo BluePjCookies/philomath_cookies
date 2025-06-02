@@ -270,7 +270,7 @@ Where the inverse of the matrix is essentially the reverse of its transformation
 > "The only thing limiting us in Math is our imagination" ~ Joshua
 
 Functions are vectors. What? Yes it's true. All functions are an infinite vector and these infinite vectors live within something called a Functional Space. 
-### Introduction to Infinite Vectors
+### Introduction to Infinite-dimensional vectors functions
 
 Take a function $f(x)$. Suppose we get all values of $f(x)$ from $0 \leq x \leq n$ . And formulate them in a vector.
 $$
