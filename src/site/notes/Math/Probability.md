@@ -46,9 +46,11 @@ P(X= x)
 $$
 ## Probability Density Function (PDF)
 For continuous random variable, $P(X = x)$ is not meaningful as it would just be 0. For example, suppose a computer can randomly generate real numbers. It is impossible that it will output $x$  due to the uncountably infinite many other possibilities. However, its output can come ridiculously close to $x$. And the probability that it is close to $x$ is defined by the probability density at $x$.
+
 $$
 f_X(x)
-$$where $f_X$ is the probability density function which measures the probability that $X$ would be close to $x$. More about them [[Math/Misc/Density Functions\|here]]
+$$
+where $f_X$ is the probability density function which measures the probability that $X$ would be close to $x$. More about them [[Math/Misc/Density Functions\|here]]
 
 To find the probability that $a \leq X \leq b$
 $$
