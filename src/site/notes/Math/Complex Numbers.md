@@ -138,33 +138,23 @@ $$
 Equating the real part
 
 $$
-
 \begin{split}
-
 \cos 3 \theta &= \cos^3 \theta - 3 \cos \theta \sin^2 \theta\\
-
 &= \cos^3 \theta - 3 \cos \theta \ (1 - \cos
 { #2}
  \theta) \\
-
 &= 4 \cos^3 \theta - 3 \cos \theta
-
 \end{split}
-
 $$
 Equating the imaginary part
 
 $$
 \begin{split}
-
 \sin 3 \theta &= 3 \cos^2 \theta \sin \theta - \sin^3 \theta\\
-
 &= 3 (1 - \sin^2 \theta ) \sin \theta - \sin
 { #3}
  \theta \\
-
 &= -4 \sin^3 \theta + 3 \sin \theta
-
 \end{split}
 $$
 
