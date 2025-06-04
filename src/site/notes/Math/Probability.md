@@ -144,6 +144,7 @@ $$
 F(x) = P(X \leq x) = \int_{-\infty}^x f_X(t) \ dt 
 $$
 
+Look at [[Math/Distributions\|Distributions]]
 ## Modern Axiomatic Definition
 
 It is based on the Kolmogorov probability axioms. Which extends the definition to unequal probability distributions, and also probability with infinite outcomes.
@@ -155,4 +156,9 @@ $P$ is the probability measure that outputs a probability of an event $E$
 
 1. $P(E) \in \mathbb{R}, P(E) \geq 0 \quad \forall E \in F$  
 2. $P(\Omega) = 1$ 
-3. $P\left(\bigcup_{i=0}^{\infty} E_i \right) = \sum_{i=0}^{\infty}P(E_i)$  if $E_i$ are disjoint 
+3. $P\left(\bigcup_{i=0}^{\infty} E_i \right) = \sum_{i=0}^{\infty}P(E_i)$  if $E_i$ are disjoint
+
+
+$$
+E^\circ
+$$

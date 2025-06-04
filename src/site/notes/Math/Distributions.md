@@ -27,7 +27,7 @@ The probability of traversing down a single path on the tree with 2 red balls is
 $$
 P(R = r) = \binom{n}{r} p^r (1-p)^{n-r}
 $$
-Thus
+Thus we say that R follows a binomial distribution. 
 $$
 R \sim \text{Bin}(n, p)
 $$
@@ -54,6 +54,9 @@ P(X = x) = \binom{n}{x} (0.5)^8
 $$
 We see that this $P(X=x)$ is a binomial distribution, where $x$ denotes the final position of the ball. Thus, the ball should follow a binomial distribution.
 ![Pasted image 20250604235835.png|centre|200](/img/user/Images/Pasted%20image%2020250604235835.png)
+$$
+X \sim \text{Bin}(8, 0.5)
+$$
 ## Central Limit Theorem
 
 
