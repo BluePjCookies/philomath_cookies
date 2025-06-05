@@ -16,15 +16,15 @@ why tho?
 
 Suppose we have 5 objects (ABCDE), and want to find the number of ways to pick 2 objects such as AB or AD.... There are $5!$ ways to rearrange ABCDE like BACDE or CABDE. Suppose we narrow our perspective on the first two letters in this $5!$ different combinations. 
 
-| Combinations of ABCD | First two letters |
-| -------------------- | ----------------- |
-| ABCDE                | AB                |
-| ABDCE                | AB                |
-| ABEDC                | AB                |
-| ABECD<br>            | AB                |
-| ABDEC                | AB                |
-| ABCED                | AB                |
-| ...                  | ...               |
+| Combinations of ABCDE | First two letters |
+| --------------------- | ----------------- |
+| ABCDE                 | AB                |
+| ABDCE                 | AB                |
+| ABEDC                 | AB                |
+| ABECD<br>             | AB                |
+| ABDEC                 | AB                |
+| ABCED                 | AB                |
+| ...                   | ...               |
 We see that the first two letters repeat six times. Pay special attention to the last 3 letters. Notice that we go through all $3!$ or $(n-r)!$ possible arrangements of C, D & E? Thus, since AB are all repeated, we divide $5!$ or $n!$ by $(n-2)! = 3!$ 
 However, we still have not accounted for the shuffling of A & B
 
