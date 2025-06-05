@@ -19,16 +19,21 @@ P(A \cap B) = P(A) P(B)
 $$
 ### **Conditional Probability**
 
-Probability that A happens given B, is the probability that both A and B happens over the probability that B happens. (Try to visualise using Venn diagrams)
+![Pasted image 20250605153703.png|centre|300](/img/user/Images/Pasted%20image%2020250605153703.png)
+$P(B|A)$ is the probability of $B$ occurring given that $A$ has already occured. We see that 
+$$
+P(A) \cdot P(B|A) = P(A \cap B)
+$$
+Thus
+$$
+P(B|A)= \frac{P(A \cap B)}{P(A)}
+$$
 
+Or
 $$
 P(A|B) = \frac{P(A \cap B)}{P(B)}
 $$
 ### **Bayes Theorem**
-Based on the conditional probability, 
-$$
-P(B|A)= \frac{P(A \cap B)}{P(A)}
-$$
 Thus
 $$
 P(A|B) = \frac{P(B|A) P(A)}{P(B)}
@@ -159,6 +164,3 @@ $P$ is the probability measure that outputs a probability of an event $E$
 3. $P\left(\bigcup_{i=0}^{\infty} E_i \right) = \sum_{i=0}^{\infty}P(E_i)$  if $E_i$ are disjoint
 
 
-$$
-E^\circ
-$$
