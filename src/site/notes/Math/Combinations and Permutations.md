@@ -55,7 +55,7 @@ Thus, hopefully you can understand why the formula works, given the above explan
 Ans:  $12^6$ permutations.
 
 > [!Question] Problem #2 
-> How many different path can be made from point A to B, without passing through C.
+> How many different path can be made from point A to B, **without** passing through C.
 
 ![Pasted image 20250605151542.png|centre|300](/img/user/Images/Pasted%20image%2020250605151542.png)
 Ans:
