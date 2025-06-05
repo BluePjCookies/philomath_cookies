@@ -25,6 +25,7 @@ Suppose we have 5 objects (ABCDE), and want to find the number of ways to pick 2
 | ABDEC                 | AB                |
 | ABCED                 | AB                |
 | ...                   | ...               |
+
 We see that the first two letters repeat six times. Pay special attention to the last 3 letters. Notice that we go through all $3!$ or $(n-r)!$ possible arrangements of C, D & E? Thus, since AB are all repeated, we divide $5!$ or $n!$ by $(n-2)! = 3!$ 
 However, we still have not accounted for the shuffling of A & B
 
@@ -32,6 +33,7 @@ However, we still have not accounted for the shuffling of A & B
 | -------------------- | ----------------- |
 | ABCDE                | AB                |
 | BACDE                | BA                |
+
 Since combinations does not care about order, AB and BA are equivalent or repeated. Since there are $r!$ or $2!$ ways to rearrange 2 letters. We divide $\frac{5!}{3!}$ by $2!$
 
 Thus the total number of ways to pick 2 objects from 5 objects is $\frac{5!}{3!2!}$
