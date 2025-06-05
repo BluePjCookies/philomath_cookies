@@ -38,10 +38,7 @@ Since combinations does not care about order, AB and BA are equivalent or repeat
 
 Thus the total number of ways to pick 2 objects from 5 objects is $\frac{5!}{3!2!}$
 
-> [!Question] Problem
-> John is trying to set up a 6 digit password. Given that he has 12 numeric characters, How many permutations of his passwords are there?
 
-Ans:  $12^6$ permutations.
 
 ## Permutations
 
@@ -51,3 +48,8 @@ $$
 In permutation, order matters. For example, given 3 choices (ABC) and pick two. $\binom{3}{2}$ would only find 3 ways, AB, BC, AC. However, $^3P_2$ will find 6 ways, AB, BA, BC, CB, AC, CA. (NOTE: order matters)
 
 Thus, hopefully you can understand why the formula works, given the above explanation for combinations.
+
+> [!Question] Problem
+> John is trying to set up a 6 digit password. Given that he has 12 numeric characters, How many permutations of his passwords are there?
+
+Ans:  $12^6$ permutations.
