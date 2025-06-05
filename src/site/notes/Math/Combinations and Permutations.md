@@ -14,7 +14,7 @@ $$
 $$
 why tho?
 
-Suppose we have 5 objects (ABCDE), and want to find the number of ways to pick 2 objects such as AB or AD.... There are $5!$ ways to rearrange ABCDE like BACDE or CABDE. Suppose we narrow our perspective on the first two letters in this $5!$ different combinations. 
+Suppose we have 5 objects (ABCDE), and want to find the number of ways to pick 2 objects such as AB or AD.... There are $5!$ ways to rearrange ABCDE like BACDE or CABDE. Suppose we only look at the first two letters in this $5!$ different combinations. 
 
 | Combinations of ABCDE | First two letters |
 | --------------------- | ----------------- |
