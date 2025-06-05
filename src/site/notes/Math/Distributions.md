@@ -57,8 +57,14 @@ We see that this $P(X=x)$ is a binomial distribution, where $x$ denotes the fina
 $$
 X \sim \text{Bin}(8, 0.5)
 $$
-## Central Limit Theorem
+## Normal Distribution
 
+### Central Limit Theorem
+The CLT states that any random processes will always follow a Normal distribution. Binomial distribution is just a variant of a Normal distribution. 
+
+$$
+X \sim N(\mu , \sigma)
+$$
 
 ---
 

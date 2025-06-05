@@ -49,7 +49,23 @@ In permutation, order matters. For example, given 3 choices (ABC) and pick two. 
 
 Thus, hopefully you can understand why the formula works, given the above explanation for combinations.
 
-> [!Question] Problem
+> [!Question] Problem #1
 > John is trying to set up a 6 digit password. Given that he has 12 numeric characters, How many permutations of his passwords are there?
 
 Ans:  $12^6$ permutations.
+
+> [!Question] Problem #2 
+> How many different path can be made from point A to B, without passing through C.
+
+![Pasted image 20250605151542.png|centre|300](/img/user/Images/Pasted%20image%2020250605151542.png)
+Ans:
+There are 9 moves to make, you have to move up (U) 3 times, and right (R) 6 times to reach from A to B. Thus the number of ways to reach from A to B is the number of ways you can choose 3 of the moves to be up, which is $\binom{9}{3}$. 
+
+The number of ways to go from A to C is $\binom{4}{2}$ and from C to B is $\binom{5}{1}$ 
+Thus, the total number of ways to move from A to B, while passing through C is $\binom{4}{2} \cdot \binom{5}{1}$. 
+
+Thus the answer is 
+$$
+\binom{9}{3} - \binom{4}{2} \cdot \binom{5}{1} = 54
+$$
+
