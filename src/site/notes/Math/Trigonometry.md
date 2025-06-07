@@ -124,7 +124,7 @@ $$
 Using the approximation that $\pi \approx \frac{22}{7}$. And reducing it using the [[Math/Derivations/Proof for Symmetries in Trigo Identities\|Proof for Symmetries in Trigo Identities]] formulas
 $$
 \begin{split}
-\cos \left( \frac{23}{5}\right) &= \cos\left( \frac{19}{5} \frac{7}{22} \pi \right)\\
+\cos \left( \frac{19}{5}\right) &= \cos\left( \frac{19}{5} \frac{7}{22} \pi \right)\\
 &= \cos\left( \frac{133}{110} \pi \right)\\
 &= (-1)^1 \cos\left(\frac{23}{110} \pi \right)
 \end{split}
