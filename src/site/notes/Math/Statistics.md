@@ -5,11 +5,11 @@
 
 > "Statistics is vectors " ~ Joshua
 
-## $R^2$ Correlation Coefficient 
+## $r$ Correlation Coefficient  
 
-The $R^2$ formula is given as such
+The $r$ formula (Pearson correlation coefficient) is given as such
 $$
-R^2 = \frac{\sum (x - \bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2 \cdot \sum (y-\bar{y})^2}}
+r = \frac{\sum (x - \bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2 \cdot \sum (y-\bar{y})^2}}
 $$
 Look at this monstrosity. But in a sense this is a rather simple formula. 
 
@@ -62,13 +62,13 @@ $$
 Let's look at the formula again,
 
 $$
-R^2 = \frac{\sum (x - \bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2 \cdot \sum (y-\bar{y})^2}}
+r = \frac{\sum (x - \bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2 \cdot \sum (y-\bar{y})^2}}
 $$
 Notice how we can rewrite is as
 $$
-R^2 = \frac{\tilde{X} \cdot \tilde{Y}}{ ||\tilde{X}|| \cdot ||\tilde{Y}||} = \cos \theta
+r = \frac{\tilde{X} \cdot \tilde{Y}}{ ||\tilde{X}|| \cdot ||\tilde{Y}||} = \cos \theta
 $$
-The dot product determine the similarity of two vectors. If the vectors are pointing in the similar direction, then it will output $\pm1$. But if they are dissimilar (perpendicular) it will output $0$. This thus explains why $R^2$ tells us the correlation between two variables as it is simply $\cos \theta$.
+The dot product determine the similarity of two vectors. If the vectors are pointing in the similar direction, then it will output $\pm1$. But if they are dissimilar (perpendicular) it will output $0$. This thus explains why $r$ tells us the correlation between two variables as it is simply $\cos \theta$.
 ## Variance
 
 Variance is defined as 

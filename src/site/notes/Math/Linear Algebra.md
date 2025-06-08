@@ -267,7 +267,18 @@ Where the inverse of the matrix is essentially the reverse of its transformation
 
 Transpose means to flip a vector or a matrix around a diagonal
 
+$$
+\begin{pmatrix}
+x_0 \\
+x_1 \\
+x_2 \\
+\end{pmatrix}^T = \begin{pmatrix} x_0 & x_1 & x_2 \end{pmatrix}
+$$
 
+Thus
+$$
+w^Tw = ||w||^2
+$$
 
 ---
 # Linear Algebra (Modern)
