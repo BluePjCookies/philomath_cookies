@@ -60,20 +60,26 @@ $$
 ## Normal Distribution
 
 ### Central Limit Theorem
-The CLT states that any random processes will always follow a Normal distribution. Binomial distribution is just a variant of a Normal distribution. 
+The CLT states that the summation of independent random processes always follow a Normal distribution. Binomial distribution is just a variant of a Normal distribution. 
 
 $$
-X \sim N(\mu , \sigma)
+X \sim N(\mu , \sigma^2)
 $$
+where $\mu$ is the mean, and $\sigma$ is the standard deviation, and $\sigma^2$ is the variance
+
+The probability of observing X is given as
+
+$$
+f_X(x) = \frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma} \right)^2}
+$$
+
 
 ---
 
 The Gaussian Distribution is given as
 $$
 \frac{1}{\sigma \sqrt{2\pi}}e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma} \right)^2}
-$$
-
-But for the sake of our sanity, lets just ignore all this and reduce the formula to the below. Basically all normal distributions are usually in this form
+$$But for the sake of our sanity, lets just ignore all this and reduce the formula to the below. Basically all normal distributions are usually in this form
 $$
 e^{-x^2}
 $$

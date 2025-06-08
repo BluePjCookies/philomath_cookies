@@ -144,7 +144,6 @@ $$
 ![Pasted image 20250423155647.png|centre| 300](/img/user/Images/Pasted%20image%2020250423155647.png)
 You have to find $D$, often by subbing $x = 0$, which determines whether it has infinite solutions or form a triangle (no solutions) shown above
 
-
 ## Matrices
 Recall how a function in algebra **transforms** x to y?
 $$
@@ -262,6 +261,13 @@ b
 $$
 
 Where the inverse of the matrix is essentially the reverse of its transformation, similar to how $f:x \mapsto y$ , thus $f^{-1} :y \mapsto x$ . Note, the inverse does not exist if the transformation is not one to one. But for square matrices, there is always an inverse 99% of the time.---
+
+---
+## Transpose
+
+Transpose means to flip a vector or a matrix around a diagonal
+
+
 
 ---
 # Linear Algebra (Modern)
