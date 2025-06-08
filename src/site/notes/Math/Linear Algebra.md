@@ -277,8 +277,9 @@ $$
 
 Thus
 $$
-w^Tw = ||w||^2
+v^Tv = v \cdot v
 $$
+
 
 ---
 # Linear Algebra (Modern)
