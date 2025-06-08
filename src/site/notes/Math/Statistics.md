@@ -69,7 +69,18 @@ $$
 R^2 = \frac{\tilde{X} \cdot \tilde{Y}}{ ||\tilde{X}|| \cdot ||\tilde{Y}||} = \cos \theta
 $$
 The dot product determine the similarity of two vectors. If the vectors are pointing in the similar direction, then it will output $\pm1$. But if they are dissimilar (perpendicular) it will output $0$. This thus explains why $R^2$ tells us the correlation between two variables as it is simply $\cos \theta$.
+## Variance
 
+Variance is defined as 
+
+$$
+Var(X) = \sum_{i=1}^{N}\frac{(x_i-\bar{x})^2}{N}
+$$
+## Standard Deviation
+
+$$
+Var = \sigma^2
+$$
 ## Why use Mean Squared Error in Regression?
 
 Look at [[Math/Distributions#Central Limit Theorem\|Central Limit Theorem]]
