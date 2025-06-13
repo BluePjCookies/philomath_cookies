@@ -150,6 +150,15 @@ F(x) = P(X \leq x) = \int_{-\infty}^x f_X(t) \ dt
 $$
 
 Look at [[Math/Distributions\|Distributions]]
+
+## Binomial Distributions
+
+$$
+\mathbb{E}(X) = np
+$$
+$$
+\mathbb{E}(X) = np(1-p)
+$$
 ## Modern Axiomatic Definition
 
 It is based on the Kolmogorov probability axioms. Which extends the definition to unequal probability distributions, and also probability with infinite outcomes.
