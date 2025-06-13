@@ -82,16 +82,21 @@ $$
 
 ## Regression
 
-Check this out: [[Math/Misc/Regression using Vandermonde Matrices (for univariate inputs)\|Regression using Vandermonde Matrices (for univariate inputs)]]
+Check this out: [[Math/Misc/Regression using Linear Algebra (for univariate inputs)\|Regression using Linear Algebra (for univariate inputs)]]
 
 The coefficients of the best-fit for univariate functions can be expressed as, where $\hat{X}$ is a Vandermonde Matrix. #Vandermonde_Matrix 
 $$
 A = (\hat{X}^T\hat{X})^{-1}\hat{X}^T Y
 $$
+## Interpolation
 
+The coefficients of a uni-variate function can be simply expressed as such as $\hat{X}$ is a square matrix and has an inverse.  (Only when $d = n+1$) where $d$ is the degree of the interpolant, and $n$ is the number of data the interpolant is supposed to pass through.
+$$
+A = \hat{X}^{-1} Y
+$$
 ## Why use Mean Squared Error in Regression?
 
-Check this out: [[Math/Misc/Rationale Behind MSE for optimisation\|Rationale Behind MSE for optimisation]]
+Check this out: [[Math/Misc/Rationale Behind MSE for optimisation\|Rationale Behind MSE for optimisation]] 
 
 
 $$
@@ -101,4 +106,4 @@ w_\text{best} &= \arg \max \sum -  (y_{\text{ideal}} - y_{\text{real}})^2 \\
 \end{split}
 $$
 
-The above proves that the best function is obtained when we minimise the sum of the squared difference.
+Where $y_{\text{ideal}} = wx$, and $w$ is the argument, $\arg \min$ outputs the argument that minimises the function. The above proves that the best function is obtained when we minimise the sum of the squared difference.
