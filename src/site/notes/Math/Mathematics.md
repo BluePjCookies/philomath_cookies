@@ -7,22 +7,23 @@
 > [! info] What is this?
 > Just something I did in my spare time, certain insights etc that might be helpful in the future :)  ps. Ignore the links that are dull, those are unfinished projects
 
-- [[Math/Calculus\|Calculus]]
-- [[Math/Algebra\|Algebra]]
-- [[Math/Combinations and Permutations\|Combinations and Permutations]]
 - [[Math/Complex Numbers\|Complex Numbers]]
-- [[Math/Distributions\|Distributions]]
-- [[Math/Geometry\|Geometry]]
-- [[Math/Lambda Calculus (Logic)\|Lambda Calculus (Logic)]]
+- [[Math/Calculus\|Calculus]]
 - [[Math/Notation\|Notation]]
-- [[Math/Sequences and Series\|Sequences and Series]]
-- [[Math/Statistics\|Statistics]]
+- [[Math/Lambda Calculus (Logic)\|Lambda Calculus (Logic)]]
 - [[Math/Group Theory\|Group Theory]]
-- [[Math/Topology\|Topology]]
-- [[Math/Linear Algebra\|Linear Algebra]]
-- [[Math/Probability\|Probability]]
+- [[Math/Distributions\|Distributions]]
 - [[Math/Trigonometry\|Trigonometry]]
+- [[Math/Probability\|Probability]]
+- [[Math/Algebra\|Algebra]]
+- [[Math/Sequences and Series\|Sequences and Series]]
+- [[Math/Linear Algebra\|Linear Algebra]]
+- [[Math/Topology\|Topology]]
 - [[Math/Structures\|Structures]]
+- [[Math/Statistics\|Statistics]]
+- [[Math/Combinations and Permutations\|Combinations and Permutations]]
+- [[Math/Geometry\|Geometry]]
+- [[Math/Quaternions\|Quaternions]]
 
 { .block-language-dataview}
 

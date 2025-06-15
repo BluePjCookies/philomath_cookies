@@ -6,8 +6,23 @@
 
 Lets just look at the link between Topology and video games :) 
 
-Suppose you are a 1 dimensional creature, 
+## 1d 
+Suppose you are a 1 dimensional creature, if you were to travel on a line segment AB. When you travel out through B, you come in through A. And vice versa.
 
+![IMG_1134.jpeg|center|300](/img/user/Images/IMG_1134.jpeg)
+
+We can connect the two points together to form a circle.
+![IMG_1136.jpeg|center|300](/img/user/Images/IMG_1136.jpeg)
+
+## 2d
+
+Now suppose you are a little point on a 2d square. If you move up out of the page, you enter from its bottom, if you go out through the right side, you re-enter from its left. We can connect all the edges to form a donut or torus.
+
+![IMG_1137.jpeg](/img/user/Images/IMG_1137.jpeg)
+
+## 3d
+
+I believe this forms a 4d torus that cannot be visualised. So don't bother
 
 
 Source:

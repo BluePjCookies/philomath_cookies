@@ -191,6 +191,21 @@ Note that the dim of a vector has to be the same as the number of columns of mat
 3. Multiply it respectively with the variable associated with it
 4. Add up all the numbers in the column
 5. The value would be on the nth row and mth column in $\hat{y}$ 
+$$
+\begin{pmatrix}
+a & b\\
+c & d
+\end{pmatrix}
+\begin{pmatrix}
+x\\
+y
+\end{pmatrix}
+=
+\begin{pmatrix}
+ax+ by\\
+cx + dy
+\end{pmatrix}
+$$
 
 Thus
 $$
@@ -260,7 +275,7 @@ b
 \end{pmatrix}^{-1} \begin{pmatrix}20 \\ 23 \end{pmatrix}
 $$
 
-Where the inverse of the matrix is essentially the reverse of its transformation, similar to how $f:x \mapsto y$ , thus $f^{-1} :y \mapsto x$ . Note, the inverse does not exist if the transformation is not one to one. But for square matrices, there is always an inverse 99% of the time.---
+Where the inverse of the matrix is essentially the reverse of its transformation, similar to how $f:x \mapsto y$ , thus $f^{-1} :y \mapsto x$ . Note, the inverse does not exist if the transformation is not one to one. But for square matrices, there is always an inverse 99% of the time.
 
 ---
 ## Transpose
@@ -274,11 +289,25 @@ x_1 \\
 x_2 \\
 \end{pmatrix}^T = \begin{pmatrix} x_0 & x_1 & x_2 \end{pmatrix}
 $$
-
 Thus
 $$
 v^Tv = v \cdot v
 $$
+In the case of matrices
+$$
+\begin{pmatrix}
+a_{00} & a_{01} & a_{02} \\
+a_{10} & a_{11} & a_{12} 
+\end{pmatrix}^T = 
+
+\begin{pmatrix}
+a_{00} & a_{10} \\
+a_{01} & a_{11} \\
+a_{02} & a_{12}
+\end{pmatrix}
+$$
+
+Another property is that $A^T A$ always result in a square matrix. As one matrix transforms a vector $m \times1$ to $n \times 1$, and the other transforms it from $n \times 1$ to $m \times 1$. Together, the two transformation transforms a vector from $m\times 1$ to $m\times 1$. Which is a property of a square matrix.
 
 
 ---
