@@ -24,6 +24,12 @@ Now suppose you are a little point on a 2d square. If you move up out of the pag
 
 I believe this forms a 4d torus that cannot be visualised. So don't bother
 
+## What is Topology
 
+Topology aims to understand that given a line, a square or a cube, if you connect its edges, how many holes would the new shape possess. A circle has 1 1d hole, while a torus has 1 1d hole (its centre) and a 2d hole inside the donut.
+
+I've no idea how, but mathematicians managed to find a formula to quantify the number of holes any object at any dimensions would have. 
+
+## Single cell
 Source:
 https://www.youtube.com/watch?v=MURzTFRRuJQ&list=LL&index=2&t=8s
