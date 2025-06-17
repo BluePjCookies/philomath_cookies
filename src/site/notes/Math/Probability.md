@@ -10,7 +10,11 @@ The classical definition of probability, also known as the Laplace definition, s
 $$
 P(E) = \frac{\text{Number of favorable outcomes}}{\text{Total number of possible outcomes}}
 $$
+### Combined events
 
+$$
+P(A \cup B) = P(A) + P(B) - P( A \cap B)
+$$
 ### Independence Relation
 
 if Event A and B are independent, then
