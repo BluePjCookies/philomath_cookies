@@ -1,11 +1,14 @@
 ---
-{"dg-publish":true,"permalink":"/math/mathematics/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/math/mathematics/","tags":["gardenEntry"],"dgShowLocalGraph":true}
 ---
 
 # Welcome!!
 
 > [! info] What is this?
 > Just something I did in my spare time, certain insights etc that might be helpful in the future :)  ps. Ignore the links that are dull, those are unfinished projects
+
+> [! quote] Quote by Maryam Mirzakhani
+> “The beauty of mathematics only shows itself to more patient followers.” 
 
 - [[Math/Complex Numbers\|Complex Numbers]]
 - [[Math/Algebra\|Algebra]]
