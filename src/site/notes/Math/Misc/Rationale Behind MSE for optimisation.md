@@ -73,3 +73,5 @@ w_\text{best} &= \arg \max \sum -  (y_{\text{ideal}} - y_{\text{real}})^2 \\
 \end{split}
 $$
 This is the exactly the Mean squared error formula used in textbooks. And we have proved that finding the argument $w$, that minimises $\sum (wx_i - y_i)^2$ is the best at minimising error $\epsilon$.
+
+From: https://www.youtube.com/watch?v=q7seckj1hwM&list=LL&index=63&t=428s

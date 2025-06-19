@@ -280,7 +280,7 @@ Where the inverse of the matrix is essentially the reverse of its transformation
 ---
 ## Transpose
 
-Transpose means to flip a vector or a matrix around a diagonal
+Transpose means to flip a vector or a matrix around a diagonal #Transpose 
 
 $$
 \begin{pmatrix}
