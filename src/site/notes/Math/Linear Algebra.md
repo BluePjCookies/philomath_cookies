@@ -144,7 +144,7 @@ $$
 ![Pasted image 20250423155647.png|centre| 300](/img/user/Images/Pasted%20image%2020250423155647.png)
 You have to find $D$, often by subbing $x = 0$, which determines whether it has infinite solutions or form a triangle (no solutions) shown above
 
-## Matrices
+# Matrices
 Recall how a function in algebra **transforms** x to y?
 $$
 f(x) = y
@@ -309,8 +309,22 @@ $$
 
 Another property is that $A^T A$ always result in a square matrix. As one matrix transforms a vector $m \times1$ to $n \times 1$, and the other transforms it from $n \times 1$ to $m \times 1$. Together, the two transformation transforms a vector from $m\times 1$ to $m\times 1$. Which is a property of a square matrix.
 
-
 ---
+
+## Determinant
+
+ps. This was copied from Reddit 
+
+The idea of the determinant is to get an indication of whether a system of equations has exactly one solution, or not. If the determinant is zero, then the system has no solutions, or many solutions. Otherwise, it has exactly one.
+
+The reason it works out this way is that the determinant formula is set up to give zero if the columns are not _linearly independent_. If the columns are not linearly independent, that means we don't have enough information to find a unique solution.
+
+Linear _dependence_ between columns means that at least one of the columns is a _linear combination_ of the others. This is a formal way of saying that one of the columns doesn't provide any new information because it's derived by adding together other columns (possibly after multiplying them by constants first.)
+
+PS. As others have said, there's a geometric interpretation too, where transforming a system using a matrix with linearly dependent columns/rows will cause at least one dimension of the space to collapse. The geometric interpretation has the advantage that it attaches some meaning to the size of the determinant when it's not zero: it's the ratio of the the change in area (or volume) caused by a transformation. But I still think the system-of-equations interpretation is the clearest, personally.
+
+
+
 # Linear Algebra (Modern)
 ## Infinite Vectors and Functional Spaces
 

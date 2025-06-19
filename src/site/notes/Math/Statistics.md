@@ -67,13 +67,26 @@ $$
 r = \frac{\tilde{X} \cdot \tilde{Y}}{ ||\tilde{X}|| \cdot ||\tilde{Y}||} = \cos \theta
 $$
 The dot product determine the similarity of two vectors. If the vectors are pointing in the similar direction, then it will output $\pm1$. But if they are dissimilar (perpendicular) it will output $0$. This thus explains why $r$ tells us the correlation between two variables as it is simply $\cos \theta$.
+
+## Expectation
+
+Expectation is
+$$
+E(X) = \sum_{i = 1}^N \frac{x_i}{N} = \bar{x}
+$$
 ## Variance
 
 Variance is defined as 
 
 $$
-Var(X) = \sum_{i=1}^{N}\frac{(x_i-\bar{x})^2}{N}
+\begin{split}
+Var(X) &= \sum_{i=1}^{N}\frac{(x_i-\bar{x})^2}{N} \\
+&=  \sum_{i=1}^{N}\frac{x_i^2 -2 x_iE(X) + E(X)^2}{N} \\
+&= E(X^2) -2  \ E(X)^2 + E(X)^2\\
+&= E(X^2) - E(X)^2
+\end{split}
 $$
+
 ## Standard Deviation
 
 $$
