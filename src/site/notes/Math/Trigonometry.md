@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/trigonometry/"}
+{"dg-publish":true,"permalink":"/math/trigonometry/","dgShowBacklinks":true}
 ---
 
 
