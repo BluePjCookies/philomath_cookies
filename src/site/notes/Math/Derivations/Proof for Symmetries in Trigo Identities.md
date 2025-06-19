@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/derivations/proof-for-symmetries-in-trigo-identities/"}
+{"dg-publish":true,"permalink":"/math/derivations/proof-for-symmetries-in-trigo-identities/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

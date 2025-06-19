@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/misc/rationale-behind-mse-for-optimisation/"}
+{"dg-publish":true,"permalink":"/math/misc/rationale-behind-mse-for-optimisation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

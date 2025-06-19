@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/linear-algebra/"}
+{"aliases":["Matrices","Vectors"],"dg-publish":true,"permalink":"/math/linear-algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Linear Algebra (Elementary)

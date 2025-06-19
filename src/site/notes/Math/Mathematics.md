@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/mathematics/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgShowToc":true}
+{"dg-publish":true,"dg-home":true,"dg-show-local-graph":true,"dg-enable-search":true,"dg-show-toc":true,"permalink":"/math/mathematics/","tags":["gardenEntry"],"dgShowLocalGraph":true,"dgEnableSearch":true,"dgShowToc":true,"dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 # Welcome!!

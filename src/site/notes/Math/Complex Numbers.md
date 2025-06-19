@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/complex-numbers/"}
+{"dg-publish":true,"permalink":"/math/complex-numbers/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

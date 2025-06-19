@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/lambda-calculus-logic/"}
+{"dg-publish":true,"permalink":"/math/lambda-calculus-logic/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

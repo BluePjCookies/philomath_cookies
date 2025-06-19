@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/algebra/"}
+{"dg-publish":true,"permalink":"/math/algebra/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

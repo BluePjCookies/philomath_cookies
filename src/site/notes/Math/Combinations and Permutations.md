@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/combinations-and-permutations/"}
+{"dg-publish":true,"permalink":"/math/combinations-and-permutations/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ## Combinations

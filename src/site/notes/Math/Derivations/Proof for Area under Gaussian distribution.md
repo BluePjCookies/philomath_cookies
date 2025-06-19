@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/derivations/proof-for-area-under-gaussian-distribution/"}
+{"dg-publish":true,"permalink":"/math/derivations/proof-for-area-under-gaussian-distribution/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

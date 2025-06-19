@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/group-theory/"}
+{"dg-publish":true,"permalink":"/math/group-theory/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

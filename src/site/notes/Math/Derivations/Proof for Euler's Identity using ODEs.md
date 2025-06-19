@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/derivations/proof-for-euler-s-identity-using-od-es/"}
+{"dg-publish":true,"permalink":"/math/derivations/proof-for-euler-s-identity-using-od-es/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 Let

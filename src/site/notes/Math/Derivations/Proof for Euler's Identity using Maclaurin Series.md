@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/derivations/proof-for-euler-s-identity-using-maclaurin-series/"}
+{"dg-publish":true,"permalink":"/math/derivations/proof-for-euler-s-identity-using-maclaurin-series/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

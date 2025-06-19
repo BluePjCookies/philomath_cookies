@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/notation/"}
+{"dg-publish":true,"permalink":"/math/notation/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/misc/density-functions/"}
+{"dg-publish":true,"permalink":"/math/misc/density-functions/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

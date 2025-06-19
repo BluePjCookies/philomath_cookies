@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/quaternions/"}
+{"dg-publish":true,"permalink":"/math/quaternions/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

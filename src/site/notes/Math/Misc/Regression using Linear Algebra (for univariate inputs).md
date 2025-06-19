@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/misc/regression-using-linear-algebra-for-univariate-inputs/"}
+{"dg-publish":true,"aliases":["Vandermonde Matrix"],"permalink":"/math/misc/regression-using-linear-algebra-for-univariate-inputs/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 Regression aims to find the best fit of a function from a set of given data points. Suppose we want to fit $n$ data points to $y$, where $y$ is a function of $x$.

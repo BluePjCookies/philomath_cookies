@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/distributions/"}
+{"dg-publish":true,"permalink":"/math/distributions/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 It is highly recommended to read [[Math/Probability\|Probability]] beforehand.

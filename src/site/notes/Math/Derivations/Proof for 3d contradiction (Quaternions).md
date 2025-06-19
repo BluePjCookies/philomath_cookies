@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/derivations/proof-for-3d-contradiction-quaternions/"}
+{"dg-publish":true,"permalink":"/math/derivations/proof-for-3d-contradiction-quaternions/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

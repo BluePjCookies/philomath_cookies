@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/sequences-and-series/"}
+{"dg-publish":true,"permalink":"/math/sequences-and-series/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

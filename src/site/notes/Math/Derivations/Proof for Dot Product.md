@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/derivations/proof-for-dot-product/"}
+{"dg-publish":true,"permalink":"/math/derivations/proof-for-dot-product/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 ![Pasted image 20250525172147.png|centre|300](/img/user/Images/Pasted%20image%2020250525172147.png)

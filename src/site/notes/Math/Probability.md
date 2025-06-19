@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/probability/"}
+{"dg-publish":true,"permalink":"/math/probability/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 
@@ -67,7 +67,7 @@ P(a \leq X \leq b) = \int_a^b f_X(x) dx
 $$
 ## Expectation
 
-The expectation function, reveals the expected value of X in the long term. It is the product of x and the probability of x occurring.
+The expectation function, reveals the expected value of X in the long term. It is the product of x and the probability of x occurring. #Expectation
 ### Discrete:
 $$
 \mathbb{E}(X) = \sum_x{x P(X=x)}
@@ -100,7 +100,7 @@ $$
 ## Variance
 
 ### Formula
-Variance is the spread of the random variable $X$ from its mean $\mathbb{E}(X)$
+Variance is the spread of the random variable $X$ from its mean $\mathbb{E}(X)$ #Variance 
 $$
 Var(X) = \mathbb{E}(X-\mathbb{E}(X) )^2
 $$

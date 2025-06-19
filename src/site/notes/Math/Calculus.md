@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/calculus/"}
+{"dg-publish":true,"permalink":"/math/calculus/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 

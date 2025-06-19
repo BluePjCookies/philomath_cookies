@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/statistics/"}
+{"dg-publish":true,"permalink":"/math/statistics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 > "Statistics is vectors " ~ Joshua
@@ -70,13 +70,13 @@ The dot product determine the similarity of two vectors. If the vectors are poin
 
 ## Expectation
 
-Expectation is
+Expectation is #Expectation 
 $$
 E(X) = \sum_{i = 1}^N \frac{x_i}{N} = \bar{x}
 $$
 ## Variance
 
-Variance is defined as 
+Variance is defined as #Variance
 
 $$
 \begin{split}

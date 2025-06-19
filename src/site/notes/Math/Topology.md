@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/math/topology/"}
+{"dg-publish":true,"permalink":"/math/topology/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 > Topology is beautifully simple, yet understandably complex" ~ Joshua
