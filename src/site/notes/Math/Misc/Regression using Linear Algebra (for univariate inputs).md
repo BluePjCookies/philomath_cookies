@@ -31,7 +31,7 @@ $$
 A Vandermonde Matrix is defined as such. It describes a polynomial function of degree $d$. #Vandermonde_Matrix
 
 $$
-\hat{X} = V(x_0, x_1, x_2, \dots x_n) = \begin{pmatrix}
+\tilde{X} = V(x_0, x_1, x_2, \dots x_n) = \begin{pmatrix}
 1 & x_0 & x_0^2 & \dots & x_0^d \\
 1 & x_1 & x_1^2 & \dots & x_1^d \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
@@ -43,7 +43,7 @@ $$
 $y$ can be re-expressed as
 
 $$
-Y = \hat{X}A
+Y = \tilde{X}A
 $$
 where 
 $$
@@ -59,7 +59,7 @@ To solve for $A$, $\hat{X}$ typically does not have an inverse as $d \neq n+1$. 
 
 $$
 \begin{split}
-\hat{X}^T Y &= (\hat{X}^T\hat{X}) A \\
-A &= (\hat{X}^T\hat{X})^{-1}\hat{X}^T Y
+\tilde{X}^T Y &= (\tilde{X}^T\tilde{X}) A \\
+A &= (\tilde{X}^T\tilde{X})^{-1}\tilde{X}^T Y
 \end{split}
 $$

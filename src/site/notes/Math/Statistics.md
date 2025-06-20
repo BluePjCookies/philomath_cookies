@@ -1,10 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/math/statistics/","dgPassFrontmatter":true,"noteIcon":""}
+{"dg-publish":true,"aliases":["Geometry_of_statistics"],"permalink":"/math/statistics/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
 > "Statistics is vectors " ~ Joshua + a lot of statisticians 
 
-## Introduction
+## Introduction to the Geometry of Statistics
 
 Why is population variance defined as
 $$
@@ -14,7 +14,7 @@ But sample variance is defined as
 $$
 Var(X) = \sum_{i=1}^{n}\frac{(x_i-\bar{x})^2}{n-1}
 $$
-The key difference lies in the **definition and role** of $\mu$ and $\bar{x}$. 
+The key difference lies in the **definition** of $\mu$ and $\bar{x}$. 
 
 ### Population Mean
 - $\mu$ is the **population mean** — a **fixed but possibly unknown constant**
@@ -22,7 +22,7 @@ The key difference lies in the **definition and role** of $\mu$ and $\bar{x}$.
 $$
 \mathbb{E}(X) = \mu
 $$
-$\mu$ is assumed to be **known** in the population context.
+$\mu$ is assumed to be **known** in the population context. #Expectation 
 
 ### Sample mean
 - In practice, however, we often **don’t know** $\mu$, especially in real-world data. So, we approximate it using the **sample mean**
@@ -42,10 +42,10 @@ Since sample mean $\bar{x} = \frac{1}{n} \sum_{i=1}^n x_i$, thus $n \bar{x} = \s
 $$
 \sum_{i=1}^n (x_i - \bar{x}) = \sum_{i=1}^nx_i - n\bar{x} = 0
 $$
-Suppose we have two vectors or residuals
+Suppose we have two sets of data, lets express them in vectors or residuals #Residuals
 
 $$
-\tilde{X} = 
+\hat{X} = 
 \begin{pmatrix}
 x_1- \bar{x}\\
 x_2- \bar{x}\\
@@ -53,7 +53,7 @@ x_2- \bar{x}\\
 x_n- \bar{x}\\
 \end{pmatrix}
 \quad 
-\tilde{Y} = 
+\hat{Y} = 
 \begin{pmatrix}
 y_1- \bar{y}\\
 y_2- \bar{y}\\
@@ -66,7 +66,7 @@ $$
 
 > A **degree of freedom** is an **independent value** in your dataset that can vary **freely** when estimating a statistic.
 
-Data can be split into two parts, residuals and sample mean.
+Data $X$ can be split into two parts, residuals $(\hat{X})$ and sample mean.
 $$
 X = \begin{pmatrix}
 x_1\\
@@ -85,7 +85,7 @@ x_1- \bar{x}\\
 x_2- \bar{x}\\
 \vdots \\
 x_n- \bar{x}\\
-\end{pmatrix}}^{\text{Residuals ($\bar{X}$)}}   + \overbrace{\bar{x} \begin{pmatrix}
+\end{pmatrix}}^{\text{Residuals ($\hat{X}$)}}   + \overbrace{\bar{x} \begin{pmatrix}
 1 \\
 1 \\
 \vdots \\
@@ -114,9 +114,19 @@ As such, when calculating the variance of the residuals, since the degree of fre
 $$
 Var(X) = \frac{1}{n - 1} \sum_{i=1}^n (x_i - \bar{x})^2
 $$
+Recall [[Math/Linear Algebra#Dot Product\|Linear Algebra#Dot Product]]
+
+We can rewrite it as 
+$$
+Var(X) = \frac{1}{n-1} (\hat{X} \cdot \hat{X}) = \frac{1}{n-1} ||\hat{X}||^2
+$$
 ## Sample Covariance
 $$
 Cov(X,Y) = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
+$$
+We can rewrite it as
+$$
+Cov(X,Y) = \frac{1}{n-1} (\hat{X} \cdot \hat{Y})
 $$
 ## Population Mean residuals
 
@@ -127,7 +137,7 @@ $$
 Thus, the residuals $x_i - \mu$  or vector $\hat{X}$ can exist anywhere in the $n$ dimensional space, having $n$ degrees of freedom as its sum is not confined to $0$.
 
 ## Population Variance
-$$Var(X) = \sum_{i=1}^{n}\frac{(x_i-\mu)^2}{n}$$
+$$Var(X) = \sum_{i=1}^{n}\frac{(x_i-\mu)^2}{n} = \frac{1}{n}(\hat{X} \cdot \hat{X} ) = \frac{1}{n}||\hat{X}||^2$$
 We can also rewrite it as
 $$
 \begin{split}
@@ -139,37 +149,14 @@ Var(X) &= \sum_{i=1}^{n}\frac{(x_i-\mu)^2}{n} \\
 $$
 ## Population Covariance
 $$
-Cov(X,Y) = \frac{1}{n} \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
+Cov(X,Y) = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu_x)(y_i - \mu_y)
 $$
 ### Why the covariance of two independent variables is 0
 
 $$
-Cov(X,Y) = \frac{\sum_{i=1}^n{(x_i-\bar{x})(y_i - \bar{y})}}{n}
+Cov(X,Y) = \frac{\sum_{i=1}^n{(x_i- \mu_x)(y_i - \mu_y)}}{n}
 $$
 Recall the two independent vectors residual $\hat{X}$ and $\hat{Y}$. We can see that based on dot product rule.
-
-<div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/math/linear-algebra/#dot-product" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
-
-
-
-### Dot Product
-
-The Dot product of two vectors is
-$
-A \cdot B = |A||B| \cos \theta
-$
-
-And
-$
-A \cdot B = \sum_{n=1} a_nb_n
-$
-
-Look at derivation of the formula [[Math/Derivations/Proof for Dot Product\|here]]
-
----
-
-
-</div></div>
 
 $$
 Cov(X,Y) = \frac{1}{n} (\hat{X} \cdot \hat{Y})
@@ -199,7 +186,7 @@ r = \frac{\sum (x - \bar{x})(y-\bar{y})}{\sqrt{\sum(x-\bar{x})^2 \cdot \sum (y-\
 $$
 Notice how we can rewrite is as
 $$
-r = \frac{\tilde{X} \cdot \tilde{Y}}{ ||\tilde{X}|| \cdot ||\tilde{Y}||} = \cos \theta
+r = \frac{\hat{X} \cdot \hat{Y}}{ ||\hat{X}|| \cdot ||\hat{Y}||} = \cos \theta
 $$
 The dot product determine the similarity of two vectors. If the vectors are pointing in the similar direction, then it will output $\pm1$. But if they are dissimilar (perpendicular) it will output $0$. This thus explains why $r$ tells us the correlation between two variables as it is simply $\cos \theta$.
 
@@ -207,9 +194,9 @@ The dot product determine the similarity of two vectors. If the vectors are poin
 
 Check this out: [[Math/Misc/Regression using Linear Algebra (for univariate inputs)\|Regression using Linear Algebra (for univariate inputs)]]
 
-The coefficients of the best-fit for univariate functions can be expressed as, where $\hat{X}$ is a Vandermonde Matrix. #Vandermonde_Matrix 
+The coefficients of the best-fit for univariate functions can be expressed as, where $\tilde{X}$ is a Vandermonde Matrix. #Vandermonde_Matrix 
 $$
-A = (\hat{X}^T\hat{X})^{-1}\hat{X}^T Y
+A = (\tilde{X}^T\tilde{X})^{-1}\tilde{X}^T Y
 $$
 ## Interpolation
 
