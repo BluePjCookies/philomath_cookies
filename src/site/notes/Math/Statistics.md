@@ -188,7 +188,7 @@ Notice how we can rewrite is as
 $$
 r = \frac{\hat{X} \cdot \hat{Y}}{ ||\hat{X}|| \cdot ||\hat{Y}||} = \cos \theta
 $$
-The dot product determine the similarity of two vectors. If the vectors are pointing in the similar direction, then it will output $\pm1$. But if they are dissimilar (perpendicular) it will output $0$. This thus explains why $r$ tells us the correlation between two variables as it is simply $\cos \theta$.
+The dot product determine the similarity of two vectors. If the vectors have a linear relationship, $\hat{Y} = a \hat{X}$, then $\hat{X}$ and $\hat{Y}$ would point at the same direction, then it will output $\pm1$. But if they are dissimilar (perpendicular) it will output $0$. This thus explains why $r$ tells us the correlation between two variables as it is simply $\cos \theta$. 
 
 ## Regression
 
