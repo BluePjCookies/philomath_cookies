@@ -85,7 +85,7 @@ $$
 $$
 Thus the area of the parallelogram can be determined by the magnitude of the cross product of $u$ and $v$.
 
-Sample qn: Prove that the volume of a cuboid is.
+Sample qn: Prove that the volume of a cuboid is. (This result is widely used in determinants and cross products)
 $$
 \text{Volume of Cuboid} = |a \cdot (b\times c)|
 $$
@@ -103,6 +103,12 @@ $$
 A line in a vector space can be described as
 $$
 \hat{r} = \hat{a} + t \hat{b}
+$$
+#### Distance between Point and Line
+
+The distance between $\hat{c}$ and $\hat{r} = \hat{a} + t \hat{b}$ is
+$$
+d = \frac{1}{||\hat{b}||}||(\hat{c} - \hat{a}) \times \hat{b}||
 $$
 
 ### Planes
@@ -130,20 +136,66 @@ $$
 r \cdot \hat{n} = D
 $$
 where $\hat{n}$ is the normal vector of the plane. And $r$ is a vector that lies on the plane
+#### Line of Intersection between two planes
+
+Given two planes 
+
+$$
+\begin{split}
+x + y + z = 1 \\
+2x + 3y +z = 5
+\end{split}
+$$
+The line of intersection can be found by keying this into GDC (menu - 3 - 2)
+![Pasted image 20250712194534.png|centre| 400](/img/user/Images/Pasted%20image%2020250712194534.png)
+
+Thus
+$$
+\begin{split}
+x = -2z -2 \qquad y &= z + 3 \qquad z = z\\ \\\
+\frac{x + 2}{-2} &= \frac{y-3}{1} = z \\ \\
+\begin{pmatrix} x \\ y \\ z \end{pmatrix} &= \begin{pmatrix} -2 \\ 3 \\  0\end{pmatrix} + \lambda \begin{pmatrix}-2 \\ 1 \\ 1 \end{pmatrix}
+\end{split}
+$$
 #### Intersection of Planes
 
-Given three planes, if their normal vectors satisfy this criteria then the plane must intersect at a unique point.
+Given three planes ($\prod_1, \prod_2, \prod_3$), the plane must intersect at a unique point when
+
 $$
 n_1 \cdot (n_2 \times n_3) \neq 0
 $$
 
-However, if this is satisfied
+However, the planes has $0$ or $\infty$ solutions when
 $$
 n_1 \cdot (n_2 \times n_3) = 0
 $$
-![Pasted image 20250423155647.png|centre| 300](/img/user/Images/Pasted%20image%2020250423155647.png)
-You have to find $D$, often by subbing $x = 0$, which determines whether it has infinite solutions or form a triangle (no solutions) shown above
 
+##### Distinguishing between no solutions & Infinite solutions 
+>! If $n_1 \cdot (n_2 \times n_3) = 0$: 
+1. Find $l$ :  the line of intersection between $n_2$ and $n_3$ 
+$$
+l = \begin{pmatrix}a \\ b \\ c \end{pmatrix} + \lambda \left(n_2 \times n_3 \right)
+$$
+2. Check if the below condition is true. If yes, then $(a,b,0)$ lies on $\prod_3$, suggesting that there are **infinite solutions**. If not, there are **no solutions**
+$$
+\begin{pmatrix} a \\ b \\ c \end{pmatrix} \cdot n_1 = D_3
+$$
+
+
+#### Distance between two parallel planes
+where $D_1$ and $D_2$ are $r \cdot n = D_1$ and $r \cdot n = D_2$.
+$$
+d = \frac{D_2-D_1}{||n||}
+$$
+
+# Linearity
+
+Formal definition of Linearity #Linearity
+1. Additivity: $L(\vec{v} + \vec{w}) = L(\vec{v}) + L(\vec{w})$
+2. Scaling: $L(c\vec{v}) = c \ L(\vec{v})$
+
+Where $L$ is a linear transformation on a corresponding vector.
+ 
 # Matrices
 Recall how a function in algebra **transforms** x to y?
 $$
@@ -159,7 +211,7 @@ $$
 A \vec{x} = \vec{b}
 $$
 ---
-We need special tools to work with vectors, and this is where matrices comes in. A matrix encodes a transformation on a vector, similar to how a function (f) encodes a transformation of x to y.
+We need special tools to work with vectors, and this is where matrices comes in. A matrix encodes a **Linear transformation** on a vector, similar to how a function (f) encodes a transformation of x to y.
 
 eg. 
 $$
@@ -313,18 +365,54 @@ Another property is that $A^T A$ always result in a square matrix. As one matrix
 
 ## Determinant
 
-ps. This was copied from Reddit 
+Determinant measures the transformation of space and volume.
 
-The idea of the determinant is to get an indication of whether a system of equations has exactly one solution, or not. If the determinant is zero, then the system has no solutions, or many solutions. Otherwise, it has exactly one.
+A matrix that maps basis vector $e_1. e_2, e_3$ to vectors $\mathbf{a},\mathbf{b},\mathbf{c}$ can be expressed as.
+$$
+A = [\mathbf{a} \quad \mathbf{b} \quad \mathbf{c}]
+$$
+The volume by the three basis vectors is given as $\epsilon^3$ or $|e|^3$
 
-The reason it works out this way is that the determinant formula is set up to give zero if the columns are not _linearly independent_. If the columns are not linearly independent, that means we don't have enough information to find a unique solution.
+The determinant, measures ratio between the initial volume of three basis vectors, and its final volume after being scaled by $A$. 
 
-Linear _dependence_ between columns means that at least one of the columns is a _linear combination_ of the others. This is a formal way of saying that one of the columns doesn't provide any new information because it's derived by adding together other columns (possibly after multiplying them by constants first.)
+$$
+\det(A) = (\mathbf{a} \times \mathbf{b}) \cdot \mathbf{c}
+$$
+where $(a \times b) \cdot c$ is the volume of the cuboid.
+$$
+\det(A) = c_1(a_2b_3-b_2a_3) - c_2(a_1b_3-b_1a_3) + c_3 (a_1b_2 - b_1a_2)
+$$
 
-PS. As others have said, there's a geometric interpretation too, where transforming a system using a matrix with linearly dependent columns/rows will cause at least one dimension of the space to collapse. The geometric interpretation has the advantage that it attaches some meaning to the size of the determinant when it's not zero: it's the ratio of the the change in area (or volume) caused by a transformation. But I still think the system-of-equations interpretation is the clearest, personally.
+Fun fact 
+
+$$
+\vec{a} \times \vec{b} = \det\begin{pmatrix} i & a_1 &  b_1 \\ j & a_2 & b_2  \\ k & a_3 & c_3\end{pmatrix}
+$$
+
+The determinant tells us about the invertibility of the Matrix
+
+---
+## Eigenvector and Eigenvalue
 
 
+An eigenvector of a matrix is a nonzero vector that, when the matrix is applied to it, is scaled by a factor $\lambda$ (the eigenvalue) but does not change direction.
 
+$$
+\begin{split}
+Av &= \lambda v \\
+Av - \lambda v &= 0\\
+(A - \lambda I) \ v &= 0
+\end{split}
+$$
+A linear system $Mx=0$ has non zero solution of $x$ if $\det(M) =0$. (Suggesting that M is singular).
+
+Thus to find non zero solution of $v$.
+$$
+\det(A - \lambda I) = 0
+$$
+Solving for $\lambda$ would allow us to solve for eigenvector $v$.
+
+---
 # Linear Algebra (Modern)
 ## Infinite Vectors and Functional Spaces
 
@@ -365,3 +453,6 @@ $$
 \int_0^{2\pi} \sin x \cos x \ dx  = 0
 $$
 Thus, $\sin$ and $\cos$ act as orthogonal basis vectors in Functional space. Proving that every single function can be expressed as a linear combination of $\sin$ and $\cos$ waves.
+
+## References
+1. https://www.youtube.com/watch?v=dT30kLnQNUE

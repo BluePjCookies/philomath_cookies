@@ -67,3 +67,6 @@ $$
 
 ---
 Group theory finds transformations on elements in a set that preserves a certain structure and symmetry within the group. Read more here: [[Math/Structures\|Structures]] (Still working on it)
+
+## Isomorphic 
+

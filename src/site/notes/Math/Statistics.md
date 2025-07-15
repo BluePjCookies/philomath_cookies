@@ -29,6 +29,7 @@ $\mu$ is assumed to be **known** in the population context. #Expectation
 $$\bar{x} = \frac{1}{N} \sum_{i=1}^N x_i$$
 
 where $\bar{x}$ is a **point estimate** of the unknown $\mu$ based on a random sample.
+[[Math/Derivations/Prove for Sample Mean\|Prove for Sample Mean]] formula
 
 ## Residuals
 

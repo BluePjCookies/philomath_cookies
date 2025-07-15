@@ -10,23 +10,29 @@
 > [! quote] Quote by Maryam Mirzakhani
 > “The beauty of mathematics only shows itself to more patient followers.” 
 
+- [[Math/Combinations and Permutations\|Combinations and Permutations]]
 - [[Math/Calculus\|Calculus]]
 - [[Math/Algebra\|Algebra]]
 - [[Math/Complex Numbers\|Complex Numbers]]
+- [[Math/Conditional Statements\|Conditional Statements]]
 - [[Math/Distributions\|Distributions]]
-- [[Math/Combinations and Permutations\|Combinations and Permutations]]
 - [[Math/Geometry\|Geometry]]
 - [[Math/Group Theory\|Group Theory]]
-- [[Math/Probability\|Probability]]
-- [[Math/Linear Algebra\|Linear Algebra]]
-- [[Math/Sequences and Series\|Sequences and Series]]
-- [[Math/Statistics\|Statistics]]
-- [[Math/Lambda Calculus (Logic)\|Lambda Calculus (Logic)]]
 - [[Math/Notation\|Notation]]
-- [[Math/Quaternions\|Quaternions]]
+- [[Math/Probability\|Probability]]
+- [[Math/Lambda Calculus (Logic)\|Lambda Calculus (Logic)]]
+- [[Math/Sequences and Series\|Sequences and Series]]
+- [[Math/Set Theory\|Set Theory]]
+- [[Math/Linear Algebra\|Linear Algebra]]
+- [[Math/Number theory\|Number theory]]
 - [[Math/Topology\|Topology]]
+- [[Math/Quaternions\|Quaternions]]
 - [[Math/Structures\|Structures]]
+- [[Math/Vector Calculus\|Vector Calculus]]
+- [[Math/Statistics\|Statistics]]
 - [[Math/Trigonometry\|Trigonometry]]
+- [[Math/Excalidraw/Drawing 2025-07-14 21.36.56.excalidraw\|Drawing 2025-07-14 21.36.56.excalidraw]]
+- [[Math/Excalidraw/Lin Algebra Summary\|Lin Algebra Summary]]
 
 { .block-language-dataview}
 

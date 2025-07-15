@@ -161,7 +161,7 @@ $$
 \mathbb{E}(X) = np
 $$
 $$
-\mathbb{E}(X) = np(1-p)
+Var(X) = np(1-p)
 $$
 ## Modern Axiomatic Definition
 

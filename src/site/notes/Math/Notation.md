@@ -33,12 +33,12 @@
 
 
 ## Logical Operators
-| Logic Operators      | Meaning     |
-|---------------------|-------------|
-| $\neg a$            | NOT a       |
-| $a \wedge b$        | a AND b     |
-| $a \vee b$          | a OR b      |
-| $a \rightarrow b$   | a implies b |
+| Logic Operators   | Meaning                   |
+| ----------------- | ------------------------- |
+| $\neg a$          | NOT a                     |
+| $a \wedge b$      | a AND b                   |
+| $a \vee b$        | a OR b                    |
+| $a \rightarrow b$ | IF a THEN b (a implies b) |
 
 
 
@@ -49,3 +49,6 @@
 > So, consider $A=\{1,2,3,4\}$. Assuming we're operating with the normal reals, the maximum is 4, as that is the largest element. The supremum is also 4, as four is the smallest upper bound.
 > 
 > However, consider the set $B=\{x\in \mathbb{R}| x<2\}$. Then, the maximum of B is not 2, as 2 is not a member of the set; in fact, the maximum is not well defined. The supremum, though is well defined: 2 is clearly the smallest upper bound for the set.
+
+## References
+- https://math.libretexts.org/Courses/Mount_Royal_University/Mathematical_Reasoning/1%3A_Basic_Language_of_Mathematics/1.1%3A_Compound_Statements#Example_.5C(.5CPageIndex.7B1.7D.5C):
