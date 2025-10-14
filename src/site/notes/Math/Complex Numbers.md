@@ -100,12 +100,12 @@ Fundamental theorem of algebra state that there exist $n$ number of solutions
 > $$
 1. Express $1 + i$ in polar form 
 $$
-1+i = \sqrt{2} \cdot e^{i \left(\frac{\pi}{2} + 2 \pi k\right)}
+1+i = \sqrt{2} \cdot e^{i \left(\frac{\pi}{4} + 2 \pi k\right)}
 $$
 2. Apply De Moivre's theorem
 
 $$
-z = (1 + i)^{\frac{1}{5}} = 2^{\frac{1}{10}}e^{i \left( \frac{\pi}{10} + \frac{2 k \pi}{5}\right)}
+z = (1 + i)^{\frac{1}{5}} = 2^{\frac{1}{10}}e^{i \left( \frac{\pi}{20} + \frac{2 k \pi}{5}\right)}
 $$
 3. Find the values of $k$
 Since $-\pi \leq \theta \leq \pi$. Thus $k \in \{ -2, -1, 0 , 1, 2\}$
@@ -152,6 +152,37 @@ $$
 &= -4 \sin^3 \theta + 3 \sin \theta
 \end{split}
 $$
+
+## Interesting question
+
+![Pasted image 20250905153329.png](/img/user/Images/Pasted%20image%2020250905153329.png)
+
+Given $n$ lighthouses along a unit circle, suppose an observer is standing inside one of the lighthouse. Find and Express the product of the distance between the observer and all other lighthouses, ($d_0 \cdot d_1 \cdot d_2 \dots$) in terms of $n$.
+
+### Solution
+
+Consider an Argand diagram. The $n$ roots of $x^n = 1$ are spaced equidistance apart along a unit circle. Recall roots of unity.
+$$
+x^n =1
+$$
+Suppose the observer stands at point $O$ (on the roots) where $O = L_0 = 1 + 0i$.
+![Pasted image 20250905154118.png|500](/img/user/Images/Pasted%20image%2020250905154118.png)
+
+The $n$ roots $L_0, L_1, \dots L_{n-1}$ 
+$$
+x^n -1 = (x- L_0)(x-L_1)(x-L_2)\dots(x-L_{n-1})
+$$
+Like vectors, see that $x - L_a$ gives a complex number whose magnitude is equal to the distance between $x$ and $L_a$. Thus the product
+$$
+\begin{split}
+d_0 \cdot d_1 \cdot d_2 \dots d_{n-2} &= |(O-L_1)(O - L_2) \dots (O-L_{n-1})| \\
+&= \frac{O^n-1}{O-1}\\
+&= 1 + O + O^2 + O^3 \dots O^{n-1}\\
+&= n
+\end{split}
+$$
+Source: https://www.youtube.com/watch?v=8GPy_UMV-08
+
 ## Relationship with Matrices
 An anti-clockwise rotation of a vector by $\theta$ can be described as 
 
@@ -195,4 +226,26 @@ $$
 In which the conjugate equates to the transpose of the matrix 
 $$
 z^* = z^T
+$$
+## Split Complex numbers
+
+Are defined as 
+$$
+\sqrt{j} = -1
+$$
+or
+$$
+j^2 = 1, \qquad j \neq1 \quad j\neq -1
+$$
+
+Properties
+$$
+e^{jx} =  \cosh x + j\sinh x  
+$$
+
+Forms a hyperbola
+multiplying by $j$ is a reflection about the $y=x$ axis.
+and
+$$
+|j| = i
 $$

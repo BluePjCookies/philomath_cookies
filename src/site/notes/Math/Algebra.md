@@ -57,6 +57,10 @@ $$
 $$
 \sum\alpha = - \frac{u_{n-1}}{u_{n}} 
 $$
+
+$$
+\sum \alpha \beta = \frac{-u_{n-2}}{u_{n}}
+$$
 **Product of roots**
 $$
 \prod \alpha = (-1)^n \frac{u_0}{u_n}
@@ -77,5 +81,5 @@ $$
 
 ## Modern Algebra 
 
-^^Read more in [[Math/Linear Algebra\|Math/Linear Algebra]], [[Math/Complex Numbers\|Complex Numbers]], [[Math/Group Theory\|Group Theory]]
+^^Read more in [[Math/Linear Algebra\|Math/Linear Algebra]], [[Math/Complex Numbers\|Math/Complex Numbers]], [[Math/Group Theory\|Group Theory]]
 

@@ -133,9 +133,9 @@ c
 = D$$
 or
 $$
-r \cdot \hat{n} = D
+r \cdot \hat{n} = D = |r| |n| \cos \theta  = d | \hat{n}|
 $$
-where $\hat{n}$ is the normal vector of the plane. And $r$ is a vector that lies on the plane
+where $\hat{n}$ is the normal vector of the plane, $d$ is the shortest distance between the plane and origin. And $r$ is a vector that lies on the plane
 #### Line of Intersection between two planes
 
 Given two planes 
@@ -165,7 +165,7 @@ $$
 n_1 \cdot (n_2 \times n_3) \neq 0
 $$
 
-However, the planes has $0$ or $\infty$ solutions when
+However, the planes has $0$ or $\infty$ solutions when their normal vectors lie on the same plane. (Linear comb of one another)
 $$
 n_1 \cdot (n_2 \times n_3) = 0
 $$

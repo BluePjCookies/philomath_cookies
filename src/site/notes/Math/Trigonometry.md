@@ -46,7 +46,19 @@ $$
 c^2 = a^2 + b^2 - 2ab \cos C
 $$
 
-
+### Physics related concept
+let $\sin \omega t$ have a wavelength of $\lambda$
+$$
+\sin(\omega t)
+$$
+The relationship between $\omega$ and $\lambda$ is.
+$$
+\lambda \omega = 2 \pi 
+$$
+thus
+$$
+\omega = 2 \pi f
+$$
 ### Double angle formula
 
 $$

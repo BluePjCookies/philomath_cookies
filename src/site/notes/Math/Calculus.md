@@ -7,7 +7,7 @@
 
 It is the slope of the line. Given by $\frac{dy}{dx}$ . The more proper definition would be.
 $$
-\lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}
+\frac{dy}{dx} = \lim_{h \rightarrow 0} \frac{f(x+h) - f(x)}{h}
 $$
 For example,
 $$

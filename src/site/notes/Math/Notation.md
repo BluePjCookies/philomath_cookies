@@ -19,9 +19,10 @@
 
 | Notation                      | Meaning                                               |
 | ----------------------------- | ----------------------------------------------------- |
-| $a \in G$                     | a in G                                                |
-| $\forall a$                   | for all values of a                                   |
-| $\exists\ a$                  | there exists a                                        |
+| $a \in G$                     | $a$ in $G$                                            |
+| $\forall a$                   | for all values of $a$                                 |
+| $\exists\ a$                  | there exists $a$                                      |
+| $\exists ! a$                 | there exists unique $a$                               |
 | $\sum_{i=a}^{b} i$            | summation of i from a to b                            |
 | $\bigcup_{i=a}^{b} S_i$       | the union of all the sets $S_a$ to $S_b$              |
 | $\lim_{x \rightarrow a} f(x)$ | the value $f(x)$ approaches as $x$ approaches $a$     |
@@ -30,6 +31,9 @@
 | $\therefore$                  | Therefore                                             |
 | $\because$                    | Because                                               |
 | $x \mapsto y$                 | Elements from $x$ maps to $y$                         |
+| $f:S \to T$                   | function maps elements from $S$ to $T$                |
+| $a \implies b$                | $a$ implies $b$ (if $a$ is true, $b$ is true)         |
+| $a \iff b$                    | $a$ is true if and only if $b$ is true                |
 
 
 ## Logical Operators
