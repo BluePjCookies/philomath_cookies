@@ -10,16 +10,6 @@
 > [! quote] Quote by Maryam Mirzakhani
 > “The beauty of mathematics only shows itself to more patient followers.” 
 
-- [[Excalidraw/Complex Numbers\|Complex Numbers]]
-- [[Excalidraw/Drawing 2025-07-31 22.36.31.excalidraw\|Drawing 2025-07-31 22.36.31.excalidraw]]
-- [[Excalidraw/Drawing 2025-08-15 20.26.27.excalidraw\|Drawing 2025-08-15 20.26.27.excalidraw]]
-- [[Excalidraw/Econs\|Econs]]
-- [[Excalidraw/Life Update\|Life Update]]
-- [[Excalidraw/Mathq12\|Mathq12]]
-- [[Excalidraw/Qn lines\|Qn lines]]
-- [[Excalidraw/Quantum Physics\|Quantum Physics]]
-- [[Excalidraw/Questions\|Questions]]
-- [[Excalidraw/Special Relativity Physics\|Special Relativity Physics]]
 - [[Math/Abstract Algebra\|Abstract Algebra]]
 - [[Math/Algebra\|Algebra]]
 - [[Math/Calculus\|Calculus]]
