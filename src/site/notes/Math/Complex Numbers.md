@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/math/complex-numbers/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
-
 ## Introduction
 An imaginary is defined as $i$ with the following property
 
