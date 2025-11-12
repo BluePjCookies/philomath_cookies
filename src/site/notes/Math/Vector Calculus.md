@@ -89,11 +89,10 @@ $\mathbf{T} = \frac{d\mathbf{r}}{||d\mathbf{r}||}  = \frac{d \mathbf{r}}{ds}$ Th
 $$
 WD = \int_C \mathbf{F} \cdot d\mathbf{r}
 $$
-Using $\text{WD} = \int_C \mathbf{F} \cdot \mathbf{T} ds$. And based on Equation 1 which states that, $||d\mathbf{r}|| = ||\mathbf{r}'(t)|| dt$
+Thus
 $$
 \begin{split}
-WD &= \int_a^b \left[P(\mathbf{r}(t))\  x'(t) + Q(\mathbf{r}(t)) \ y'(t)\right]  \cdot \frac{1}{||d\mathbf{r}||} dt  ||\mathbf{r}'(t)||\  dt \\
-&=\int_a^b \left[P(\mathbf{r}(t))\  x'(t) + Q(\mathbf{r}(t)) \ y'(t)\right]  dt \\
+WD &= \int_C \mathbf{F} \cdot \frac{d\mathbf{r}}{dt} \cdot dt \\
 &= \int_a^b \mathbf{F}(\mathbf{r}(t)) \cdot \mathbf{r'}(t) dt
 \end{split}
 $$
@@ -106,8 +105,6 @@ WD &= \int_a^b \left[P(\mathbf{r}(t))\  x'(t) + Q(\mathbf{r}(t)) \ y'(t)\right] 
 &= \int_a^b P(\mathbf{r}(t))\ dx  + \int_a^b Q(\mathbf{r}(t)) dy \\
 \end{split}
 $$
-
-
 
 
 ## Gradient Vector Field over Scalar Functions
