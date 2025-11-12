@@ -16,7 +16,6 @@
 - [[Math/Combinations and Permutations\|Combinations and Permutations]]
 - [[Math/Conditional Statements\|Conditional Statements]]
 - [[Math/Calculus\|Calculus]]
-- [[Math/Excalidraw/Lin Algebra Summary\|Lin Algebra Summary]]
 - [[Math/Geometry\|Geometry]]
 - [[Math/Distributions\|Distributions]]
 - [[Math/Dual Number Geometry\|Dual Number Geometry]]

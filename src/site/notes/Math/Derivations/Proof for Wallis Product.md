@@ -2,6 +2,10 @@
 {"dg-publish":true,"permalink":"/math/derivations/proof-for-wallis-product/","dgPassFrontmatter":true,"noteIcon":""}
 ---
 
+> [!question] Fun Practice!
+> Using integration by parts, if $I_n = \int_0^\pi sin^n\theta d\theta$. Prove that $I_n = \frac{n-1}{n} I_{n-2}$
+
+
 Let 
 $$
 I_n = \int_0^\pi \sin^n \theta  d\theta
