@@ -108,7 +108,7 @@ Consider now, $f(t) = e^{at}$
 $$
 e^{at} \xrightarrow{\mathcal{L}} \int_0^{\infty}e^{at}e^{-st}dt = \frac{1}{s-a}
 $$
-The Laplace transform of $e^{at}$ has a pole at $a$ where $F(a) = \infty$. Thus we have figured out what values of $s$ are embedded in the function $f(t)$.
+The Laplace transform of $e^{at}$ has a pole at $a$ where $F(a) = \infty$. Thus we have figured out what values of $a$ are embedded in the function $f(t)$.
 
 Consider now $f(t) = \cos(\omega t)$. $\cos(\omega t) = \frac{1}{2}e^{i\omega t} + \frac{1}{2}e^{-i\omega t}$. (Recall [[Math/Complex Numbers\|Complex Numbers]])
 Its Laplace transform is
