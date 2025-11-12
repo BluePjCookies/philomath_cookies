@@ -111,7 +111,7 @@ $$
 &= \frac{x^2}{2}(\ln x - \frac{1}{2}) + C
 \end{split}
 $$
-
+A nice application of this formula is in its immense contribution in [[Math/Derivations/Proof for Wallis Product\|Proof for Wallis Product]].
 ### Trick for inverse trigo functions:
 
 This type of questions typically asks us to solve for $\int \dfrac{k}{a + (\frac{x}{b})^2} \ dx$  or $\int \dfrac{k}{\sqrt{a + (\frac{x}{b})^2}} \ dx$
