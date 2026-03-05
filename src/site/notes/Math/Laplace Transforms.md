@@ -16,8 +16,8 @@ $$
 f(t) = e^{st}
 $$
 #### Intuition
-
- Consider initial position at $f(0) = 1$. The velocity of the particle is $\frac{d}{dt}f(t) = sf(t)$. Thus, the particle at $1 +0i$ will have a velocity $s$. If $a < 0$, $s$ is pulling the particle inwards, causing it to spiral inwards. If $a > 0$, $s$ is pushing the particle outwards, causing it to spiral outwards. As $|b|$ increases, it's angular frequency $\omega = \frac{d \theta}{dt} = \frac{d bt}{dt} = b$ increases, causing it to move faster in a circular motion. Thus $x = e^{at} \cos(bt)$ , $y = e^{at} \sin (bt)$.
+![Pasted image 20251122221158.png](/img/user/Images/Pasted%20image%2020251122221158.png)
+ Consider initial position at $f(0) = 1$. The velocity of the particle is $\frac{d}{dt}f(t) = sf(t)$. Thus, the particle at $1 +0i$ will have a velocity $s = a+ib$ (in yellow). If $a < 0$, $s$ is pulling the particle inwards, causing it to spiral inwards. If $a > 0$, $s$ is pushing the particle outwards, causing it to spiral outwards. As $|b|$ increases, it's angular frequency $\omega = \frac{d \theta}{dt} = \frac{d bt}{dt} = b$ increases, causing it to move faster in a circular motion. Thus $x = e^{at} \cos(bt)$ , $y = e^{at} \sin (bt)$.
 $$\begin{split}
 e^{(a + ib)t} &= \overbrace{e^{at}}^{\text{Magnitude}} \overbrace{e^{ibt}}^{\omega} \\
 &= e^{at} \left[\cos(bt) + i \sin(bt) \right]
